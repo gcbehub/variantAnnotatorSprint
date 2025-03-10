@@ -1,4 +1,13 @@
+import logging
+from pathlib import Path
 from resources import variantValidator_rest, vep_rest
+
+# Use logging rather than print statements to track workflows and record exceptions.py
+current_directory = str(Path(__file__).resolve().parent)
+logging.basicConfig(level=logging.ERROR,  # DEBUG, INFO, WARN, ERROR
+                    format="%(asctime)s [%(levelname)s] %(message)s",
+                    handlers=[logging.FileHandler(f"{current_directory}/logs/va.log"),
+                              logging.StreamHandler()],)
 
 def validate_genome_build(build):
     valid_builds = ['GRCh37', 'GRCh38']
@@ -13,11 +22,11 @@ def main():
     try:
         genome_build = validate_genome_build(genome_build)
     except ValueError as e:
-        print(e)
+        logging.error(e)
         return
 
-    print(f"Variant Description: {variant}")
-    print(f"Genome Build: {genome_build}")
+    logging.info(f"Variant Description: {variant}")
+    logging.info(f"Genome Build: {genome_build}")
 
     if "ENST" not in variant:
         validation = variantValidator_rest.validate_variant_refseq(variant, genome_build)
