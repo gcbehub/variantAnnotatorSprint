@@ -1,0 +1,1516 @@
+2025-03-16 22:52:53,217 [ERROR] Invalid genome build. Choose from ['GRCh37', 'GRCh38'].
+2025-03-16 22:54:24,748 [ERROR] Invalid genome build. Choose from ['GRCh37', 'GRCh38'].
+2025-03-16 23:37:32,357 [ERROR] Invalid genome build. Choose from ['GRCh37', 'GRCh38'].
+2025-03-17 14:40:17,929 [ERROR] Error fetching VEP annotations: 500 - <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBLâs European Bionformatics Institute</title>
+
+
+
+    <link rel="icon" type="image/x-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon.ico" />
+<link rel="icon" type="image/png"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="192Ã192"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" />
+<!-- Android (192px) -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png" />
+<!-- For iPhone 4 Retina display (114px) -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png" />
+<!-- For iPad (72px) -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png" />
+<!-- For iPad retinat (144px) -->
+<link rel="apple-touch-icon-precomposed"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png" />
+<!-- For iPhone (57px) -->
+<link rel="mask-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg"
+  color="#ffffff" /> <!-- Safari icon for pinned tab -->
+<meta name="msapplication-TileColor" content="#2b5797" /> <!-- MS Icons -->
+<meta name="msapplication-TileImage"
+  content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/mstile-144x144.png" />
+
+
+
+
+
+
+    <!-- Search indexing optimisations -->
+    <meta class="swiftype" name="what" data-type="string" content="none" />
+    <meta class="swiftype" name="where" data-type="string" content="EMBL-EBI" />
+
+
+    <!-- Descriptive meta -->
+    <meta name="title" content="Error: 500">
+    <meta name="author" content="European Bioinformatics Institute">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="og:title" content="Error: 500">
+    <meta property="og:description" content="">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="twitter:title" content="Error: 500">
+    <meta property="twitter:description" content="">
+
+
+    <!-- Content descriptors -->
+    <meta name="embl:who" content="EMBL-EBI Web Dev">
+    <meta name="embl:where" content="EMBL-EBI">
+    <meta name="embl:what" content="none">
+    <meta name="embl:active" content="where">
+
+    <!-- Content role -->
+    <meta name="embl:utility" content="10">
+    <meta name="embl:reach" content="0">
+
+    <!-- Page infromation -->
+    <meta name="embl:maintainer" content="EMBL-EBI Web Dev">
+    <meta name="embl:last-review" content="2021.04.01">
+    <meta name="embl:review-cycle" content="365">
+    <meta name="embl:expiry" content="never">
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="404;dimension1">
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.7/css/styles.css">
+<!-- JS -->
+<script src="https://assets.emblstatic.net/vf/v2.5.7/scripts/scripts.js"></script>
+<head>
+  <body class="vf-body vf-stack vf-stack--400">
+    <style>head, title, link, meta, style, script {--vf-stack-margin--custom: 0; }</style>
+
+    <!-- See the EBI Header Footer docs: https://stable.visual-framework.dev/components/ebi-header-footer -->
+
+    <link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.4.5/assets/ebi-header-footer/ebi-header-footer.css" type="text/css" media="all">
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed"></header>
+
+
+
+
+<style>
+  .embl-grid {
+    margin-bottom: 48px;
+  }
+</style>
+
+<section class="vf-intro" id="500">
+
+  <div><!-- empty --></div>
+
+  <div class="vf-stack">
+
+  <h1 class="vf-intro__heading ">Error: 500</h1>
+<p class="vf-lede">There was a technical error.</p>
+
+
+<p class="vf-intro__text">Something has gone wrong with our web server when attempting to make this page.</p><p class="vf-intro__text">Unfortunately, the service you are trying to access is currently unavailable. <br>Please try again later.</p>
+  </div>
+</section>
+
+
+<section class="embl-grid embl-grid--has-centered-content">
+  <div></div>
+ <section>
+      <form id="ebi_search" action="/ebisearch/search.ebi" class="vf-form vf-form--search vf-form--search--mini | vf-sidebar vf-sidebar--end">
+        <div class="vf-sidebar__inner" style="flex-wrap: nowrap;">
+          <div class="vf-form__item">
+            <label class="vf-form__label vf-u-sr-only | vf-search__label" for="searchitem">Search</label>
+            <input name="query" type="search" placeholder="Find a gene, protein or chemical" id="searchitem" class="vf-form__input" required="" spellcheck="false" data-ms-editor="true">
+            <input name="requestFrom" id="requestFrom" type="hidden" class="vf-form__input" value="ebi_index">
+          </div>
+          <div class="vf-form__item">
+            <select name="db" id="db" tabindex="1" class="vf-form__select" style="max-width: 150px">
+              <option value="allebi">All</option>
+              <optgroup label="Science search">
+                <option value="genomes">Genomes &amp; metagenomes</option>
+                <option value="nucleotideSequences">Nucleotide sequences</option>
+                <option value="proteinSequences">Protein sequences</option>
+                <option value="smallMolecules">Small molecules</option>
+                <option value="geneExpression">Gene expression</option>
+                <option value="geneDiseaseAssociations">Gene-Disease Associations</option>
+                <option value="diseases">Diseases</option>
+                <option value="molecularInteractions">Molecular interactions</option>
+                <option value="reactionsPathways">Reactions &amp; pathways</option>
+                <option value="proteinFamilies">Protein families</option>
+                <option value="literature">Literature</option>
+                <option value="ontologies">Samples &amp; ontologies</option>
+              </optgroup>
+              <optgroup label="Search web content">
+                <option value="ebiweb_people">EMBL-EBI People</option>
+                <option value="ebiweb">EMBL-EBI web</option>
+                <!-- <option value="ebiweb">EMBL web</option> -->
+              </optgroup>
+            </select>
+          </div>
+
+
+          <button type="submit" class="vf-search__button | vf-button vf-button--primary">
+            <span class="vf-button__text">Search</span>
+          </button>
+        </div>
+      </form>
+      <p class="vf-text-body--5 vf-u-margin__bottom--0">
+        Example searches: <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;requestFrom=ebi_index&amp;query=blast">blast</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=keratin&amp;requestFrom=ebi_index">keratin</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=bfl1&amp;requestFrom=ebi_index">bfl1</a>
+        | <a class="vf-link" href="https://www.ebi.ac.uk/ebisearch/overview.ebi/about">About EBI Search</a>
+      </p>
+    </section>
+</section>
+
+<section class="embl-grid">
+  <div></div>
+  <div class="vf-content">
+    <h3>Need assistance?</h3>
+    <a class="vf-button vf-button--primary" href="https://www.ebi.ac.uk/support/error">Contact our support team</a>
+  </div>
+</section>
+
+    <!-- embl global footer -->
+
+
+<!-- embl-ebi global footer -->
+<link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=106902&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <script src="https://assets.emblstatic.net/vf/v2.4.9/scripts/scripts.js"></script>
+<!--
+  When using legacy EBI 1.x JS, we disable the old cookie banner.
+  https://stable.visual-framework.dev/components/ebi-header-footer/
+  -->
+<div class="vf-u-display-none" data-protection-message-disable="true"></div>
+
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<!-- <script src="/scripts/scripts.js?"></script> -->
+<script defer="defer" src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/js/script.js"></script>
+<link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css" media="all" />
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-629242-1', 'auto');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+        //- Code to execute when only the HTML document is loaded.
+        //- This doesn't wait for stylesheets,
+        // images, and subframes to finish loading.
+  });
+</script>
+
+  </body>
+</html>
+
+2025-03-17 14:41:07,496 [ERROR] Error fetching VEP annotations: 500 - <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBLâs European Bionformatics Institute</title>
+
+
+
+    <link rel="icon" type="image/x-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon.ico" />
+<link rel="icon" type="image/png"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="192Ã192"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" />
+<!-- Android (192px) -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png" />
+<!-- For iPhone 4 Retina display (114px) -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png" />
+<!-- For iPad (72px) -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png" />
+<!-- For iPad retinat (144px) -->
+<link rel="apple-touch-icon-precomposed"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png" />
+<!-- For iPhone (57px) -->
+<link rel="mask-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg"
+  color="#ffffff" /> <!-- Safari icon for pinned tab -->
+<meta name="msapplication-TileColor" content="#2b5797" /> <!-- MS Icons -->
+<meta name="msapplication-TileImage"
+  content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/mstile-144x144.png" />
+
+
+
+
+
+
+    <!-- Search indexing optimisations -->
+    <meta class="swiftype" name="what" data-type="string" content="none" />
+    <meta class="swiftype" name="where" data-type="string" content="EMBL-EBI" />
+
+
+    <!-- Descriptive meta -->
+    <meta name="title" content="Error: 500">
+    <meta name="author" content="European Bioinformatics Institute">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="og:title" content="Error: 500">
+    <meta property="og:description" content="">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="twitter:title" content="Error: 500">
+    <meta property="twitter:description" content="">
+
+
+    <!-- Content descriptors -->
+    <meta name="embl:who" content="EMBL-EBI Web Dev">
+    <meta name="embl:where" content="EMBL-EBI">
+    <meta name="embl:what" content="none">
+    <meta name="embl:active" content="where">
+
+    <!-- Content role -->
+    <meta name="embl:utility" content="10">
+    <meta name="embl:reach" content="0">
+
+    <!-- Page infromation -->
+    <meta name="embl:maintainer" content="EMBL-EBI Web Dev">
+    <meta name="embl:last-review" content="2021.04.01">
+    <meta name="embl:review-cycle" content="365">
+    <meta name="embl:expiry" content="never">
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="404;dimension1">
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.7/css/styles.css">
+<!-- JS -->
+<script src="https://assets.emblstatic.net/vf/v2.5.7/scripts/scripts.js"></script>
+<head>
+  <body class="vf-body vf-stack vf-stack--400">
+    <style>head, title, link, meta, style, script {--vf-stack-margin--custom: 0; }</style>
+
+    <!-- See the EBI Header Footer docs: https://stable.visual-framework.dev/components/ebi-header-footer -->
+
+    <link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.4.5/assets/ebi-header-footer/ebi-header-footer.css" type="text/css" media="all">
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed"></header>
+
+
+
+
+<style>
+  .embl-grid {
+    margin-bottom: 48px;
+  }
+</style>
+
+<section class="vf-intro" id="500">
+
+  <div><!-- empty --></div>
+
+  <div class="vf-stack">
+
+  <h1 class="vf-intro__heading ">Error: 500</h1>
+<p class="vf-lede">There was a technical error.</p>
+
+
+<p class="vf-intro__text">Something has gone wrong with our web server when attempting to make this page.</p><p class="vf-intro__text">Unfortunately, the service you are trying to access is currently unavailable. <br>Please try again later.</p>
+  </div>
+</section>
+
+
+<section class="embl-grid embl-grid--has-centered-content">
+  <div></div>
+ <section>
+      <form id="ebi_search" action="/ebisearch/search.ebi" class="vf-form vf-form--search vf-form--search--mini | vf-sidebar vf-sidebar--end">
+        <div class="vf-sidebar__inner" style="flex-wrap: nowrap;">
+          <div class="vf-form__item">
+            <label class="vf-form__label vf-u-sr-only | vf-search__label" for="searchitem">Search</label>
+            <input name="query" type="search" placeholder="Find a gene, protein or chemical" id="searchitem" class="vf-form__input" required="" spellcheck="false" data-ms-editor="true">
+            <input name="requestFrom" id="requestFrom" type="hidden" class="vf-form__input" value="ebi_index">
+          </div>
+          <div class="vf-form__item">
+            <select name="db" id="db" tabindex="1" class="vf-form__select" style="max-width: 150px">
+              <option value="allebi">All</option>
+              <optgroup label="Science search">
+                <option value="genomes">Genomes &amp; metagenomes</option>
+                <option value="nucleotideSequences">Nucleotide sequences</option>
+                <option value="proteinSequences">Protein sequences</option>
+                <option value="smallMolecules">Small molecules</option>
+                <option value="geneExpression">Gene expression</option>
+                <option value="geneDiseaseAssociations">Gene-Disease Associations</option>
+                <option value="diseases">Diseases</option>
+                <option value="molecularInteractions">Molecular interactions</option>
+                <option value="reactionsPathways">Reactions &amp; pathways</option>
+                <option value="proteinFamilies">Protein families</option>
+                <option value="literature">Literature</option>
+                <option value="ontologies">Samples &amp; ontologies</option>
+              </optgroup>
+              <optgroup label="Search web content">
+                <option value="ebiweb_people">EMBL-EBI People</option>
+                <option value="ebiweb">EMBL-EBI web</option>
+                <!-- <option value="ebiweb">EMBL web</option> -->
+              </optgroup>
+            </select>
+          </div>
+
+
+          <button type="submit" class="vf-search__button | vf-button vf-button--primary">
+            <span class="vf-button__text">Search</span>
+          </button>
+        </div>
+      </form>
+      <p class="vf-text-body--5 vf-u-margin__bottom--0">
+        Example searches: <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;requestFrom=ebi_index&amp;query=blast">blast</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=keratin&amp;requestFrom=ebi_index">keratin</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=bfl1&amp;requestFrom=ebi_index">bfl1</a>
+        | <a class="vf-link" href="https://www.ebi.ac.uk/ebisearch/overview.ebi/about">About EBI Search</a>
+      </p>
+    </section>
+</section>
+
+<section class="embl-grid">
+  <div></div>
+  <div class="vf-content">
+    <h3>Need assistance?</h3>
+    <a class="vf-button vf-button--primary" href="https://www.ebi.ac.uk/support/error">Contact our support team</a>
+  </div>
+</section>
+
+    <!-- embl global footer -->
+
+
+<!-- embl-ebi global footer -->
+<link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=106902&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <script src="https://assets.emblstatic.net/vf/v2.4.9/scripts/scripts.js"></script>
+<!--
+  When using legacy EBI 1.x JS, we disable the old cookie banner.
+  https://stable.visual-framework.dev/components/ebi-header-footer/
+  -->
+<div class="vf-u-display-none" data-protection-message-disable="true"></div>
+
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<!-- <script src="/scripts/scripts.js?"></script> -->
+<script defer="defer" src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/js/script.js"></script>
+<link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css" media="all" />
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-629242-1', 'auto');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+        //- Code to execute when only the HTML document is loaded.
+        //- This doesn't wait for stylesheets,
+        // images, and subframes to finish loading.
+  });
+</script>
+
+  </body>
+</html>
+
+2025-03-17 14:41:58,865 [ERROR] Error fetching genomic HGVS: ' NM_000088.3:c.589G>T'
+2025-03-17 14:43:15,463 [ERROR] Error fetching VEP annotations: 500 - <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBLâs European Bionformatics Institute</title>
+
+
+
+    <link rel="icon" type="image/x-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon.ico" />
+<link rel="icon" type="image/png"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="192Ã192"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" />
+<!-- Android (192px) -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png" />
+<!-- For iPhone 4 Retina display (114px) -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png" />
+<!-- For iPad (72px) -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png" />
+<!-- For iPad retinat (144px) -->
+<link rel="apple-touch-icon-precomposed"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png" />
+<!-- For iPhone (57px) -->
+<link rel="mask-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg"
+  color="#ffffff" /> <!-- Safari icon for pinned tab -->
+<meta name="msapplication-TileColor" content="#2b5797" /> <!-- MS Icons -->
+<meta name="msapplication-TileImage"
+  content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/mstile-144x144.png" />
+
+
+
+
+
+
+    <!-- Search indexing optimisations -->
+    <meta class="swiftype" name="what" data-type="string" content="none" />
+    <meta class="swiftype" name="where" data-type="string" content="EMBL-EBI" />
+
+
+    <!-- Descriptive meta -->
+    <meta name="title" content="Error: 500">
+    <meta name="author" content="European Bioinformatics Institute">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="og:title" content="Error: 500">
+    <meta property="og:description" content="">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="twitter:title" content="Error: 500">
+    <meta property="twitter:description" content="">
+
+
+    <!-- Content descriptors -->
+    <meta name="embl:who" content="EMBL-EBI Web Dev">
+    <meta name="embl:where" content="EMBL-EBI">
+    <meta name="embl:what" content="none">
+    <meta name="embl:active" content="where">
+
+    <!-- Content role -->
+    <meta name="embl:utility" content="10">
+    <meta name="embl:reach" content="0">
+
+    <!-- Page infromation -->
+    <meta name="embl:maintainer" content="EMBL-EBI Web Dev">
+    <meta name="embl:last-review" content="2021.04.01">
+    <meta name="embl:review-cycle" content="365">
+    <meta name="embl:expiry" content="never">
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="404;dimension1">
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.7/css/styles.css">
+<!-- JS -->
+<script src="https://assets.emblstatic.net/vf/v2.5.7/scripts/scripts.js"></script>
+<head>
+  <body class="vf-body vf-stack vf-stack--400">
+    <style>head, title, link, meta, style, script {--vf-stack-margin--custom: 0; }</style>
+
+    <!-- See the EBI Header Footer docs: https://stable.visual-framework.dev/components/ebi-header-footer -->
+
+    <link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.4.5/assets/ebi-header-footer/ebi-header-footer.css" type="text/css" media="all">
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed"></header>
+
+
+
+
+<style>
+  .embl-grid {
+    margin-bottom: 48px;
+  }
+</style>
+
+<section class="vf-intro" id="500">
+
+  <div><!-- empty --></div>
+
+  <div class="vf-stack">
+
+  <h1 class="vf-intro__heading ">Error: 500</h1>
+<p class="vf-lede">There was a technical error.</p>
+
+
+<p class="vf-intro__text">Something has gone wrong with our web server when attempting to make this page.</p><p class="vf-intro__text">Unfortunately, the service you are trying to access is currently unavailable. <br>Please try again later.</p>
+  </div>
+</section>
+
+
+<section class="embl-grid embl-grid--has-centered-content">
+  <div></div>
+ <section>
+      <form id="ebi_search" action="/ebisearch/search.ebi" class="vf-form vf-form--search vf-form--search--mini | vf-sidebar vf-sidebar--end">
+        <div class="vf-sidebar__inner" style="flex-wrap: nowrap;">
+          <div class="vf-form__item">
+            <label class="vf-form__label vf-u-sr-only | vf-search__label" for="searchitem">Search</label>
+            <input name="query" type="search" placeholder="Find a gene, protein or chemical" id="searchitem" class="vf-form__input" required="" spellcheck="false" data-ms-editor="true">
+            <input name="requestFrom" id="requestFrom" type="hidden" class="vf-form__input" value="ebi_index">
+          </div>
+          <div class="vf-form__item">
+            <select name="db" id="db" tabindex="1" class="vf-form__select" style="max-width: 150px">
+              <option value="allebi">All</option>
+              <optgroup label="Science search">
+                <option value="genomes">Genomes &amp; metagenomes</option>
+                <option value="nucleotideSequences">Nucleotide sequences</option>
+                <option value="proteinSequences">Protein sequences</option>
+                <option value="smallMolecules">Small molecules</option>
+                <option value="geneExpression">Gene expression</option>
+                <option value="geneDiseaseAssociations">Gene-Disease Associations</option>
+                <option value="diseases">Diseases</option>
+                <option value="molecularInteractions">Molecular interactions</option>
+                <option value="reactionsPathways">Reactions &amp; pathways</option>
+                <option value="proteinFamilies">Protein families</option>
+                <option value="literature">Literature</option>
+                <option value="ontologies">Samples &amp; ontologies</option>
+              </optgroup>
+              <optgroup label="Search web content">
+                <option value="ebiweb_people">EMBL-EBI People</option>
+                <option value="ebiweb">EMBL-EBI web</option>
+                <!-- <option value="ebiweb">EMBL web</option> -->
+              </optgroup>
+            </select>
+          </div>
+
+
+          <button type="submit" class="vf-search__button | vf-button vf-button--primary">
+            <span class="vf-button__text">Search</span>
+          </button>
+        </div>
+      </form>
+      <p class="vf-text-body--5 vf-u-margin__bottom--0">
+        Example searches: <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;requestFrom=ebi_index&amp;query=blast">blast</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=keratin&amp;requestFrom=ebi_index">keratin</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=bfl1&amp;requestFrom=ebi_index">bfl1</a>
+        | <a class="vf-link" href="https://www.ebi.ac.uk/ebisearch/overview.ebi/about">About EBI Search</a>
+      </p>
+    </section>
+</section>
+
+<section class="embl-grid">
+  <div></div>
+  <div class="vf-content">
+    <h3>Need assistance?</h3>
+    <a class="vf-button vf-button--primary" href="https://www.ebi.ac.uk/support/error">Contact our support team</a>
+  </div>
+</section>
+
+    <!-- embl global footer -->
+
+
+<!-- embl-ebi global footer -->
+<link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=106902&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <script src="https://assets.emblstatic.net/vf/v2.4.9/scripts/scripts.js"></script>
+<!--
+  When using legacy EBI 1.x JS, we disable the old cookie banner.
+  https://stable.visual-framework.dev/components/ebi-header-footer/
+  -->
+<div class="vf-u-display-none" data-protection-message-disable="true"></div>
+
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<!-- <script src="/scripts/scripts.js?"></script> -->
+<script defer="defer" src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/js/script.js"></script>
+<link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css" media="all" />
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-629242-1', 'auto');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+        //- Code to execute when only the HTML document is loaded.
+        //- This doesn't wait for stylesheets,
+        // images, and subframes to finish loading.
+  });
+</script>
+
+  </body>
+</html>
+
+2025-03-17 14:43:54,379 [ERROR] Error fetching genomic HGVS: 'NM_000135.4:c.670G>T'
+2025-03-17 14:44:15,695 [ERROR] Error fetching genomic HGVS: 'NM_000135.4:c.670G>T'
+2025-03-17 15:02:00,112 [ERROR] Error fetching VEP annotations: 500 - <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBLâs European Bionformatics Institute</title>
+
+
+
+    <link rel="icon" type="image/x-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon.ico" />
+<link rel="icon" type="image/png"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="192Ã192"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" />
+<!-- Android (192px) -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png" />
+<!-- For iPhone 4 Retina display (114px) -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png" />
+<!-- For iPad (72px) -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png" />
+<!-- For iPad retinat (144px) -->
+<link rel="apple-touch-icon-precomposed"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png" />
+<!-- For iPhone (57px) -->
+<link rel="mask-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg"
+  color="#ffffff" /> <!-- Safari icon for pinned tab -->
+<meta name="msapplication-TileColor" content="#2b5797" /> <!-- MS Icons -->
+<meta name="msapplication-TileImage"
+  content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/mstile-144x144.png" />
+
+
+
+
+
+
+    <!-- Search indexing optimisations -->
+    <meta class="swiftype" name="what" data-type="string" content="none" />
+    <meta class="swiftype" name="where" data-type="string" content="EMBL-EBI" />
+
+
+    <!-- Descriptive meta -->
+    <meta name="title" content="Error: 500">
+    <meta name="author" content="European Bioinformatics Institute">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="og:title" content="Error: 500">
+    <meta property="og:description" content="">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="twitter:title" content="Error: 500">
+    <meta property="twitter:description" content="">
+
+
+    <!-- Content descriptors -->
+    <meta name="embl:who" content="EMBL-EBI Web Dev">
+    <meta name="embl:where" content="EMBL-EBI">
+    <meta name="embl:what" content="none">
+    <meta name="embl:active" content="where">
+
+    <!-- Content role -->
+    <meta name="embl:utility" content="10">
+    <meta name="embl:reach" content="0">
+
+    <!-- Page infromation -->
+    <meta name="embl:maintainer" content="EMBL-EBI Web Dev">
+    <meta name="embl:last-review" content="2021.04.01">
+    <meta name="embl:review-cycle" content="365">
+    <meta name="embl:expiry" content="never">
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="404;dimension1">
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.7/css/styles.css">
+<!-- JS -->
+<script src="https://assets.emblstatic.net/vf/v2.5.7/scripts/scripts.js"></script>
+<head>
+  <body class="vf-body vf-stack vf-stack--400">
+    <style>head, title, link, meta, style, script {--vf-stack-margin--custom: 0; }</style>
+
+    <!-- See the EBI Header Footer docs: https://stable.visual-framework.dev/components/ebi-header-footer -->
+
+    <link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.4.5/assets/ebi-header-footer/ebi-header-footer.css" type="text/css" media="all">
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed"></header>
+
+
+
+
+<style>
+  .embl-grid {
+    margin-bottom: 48px;
+  }
+</style>
+
+<section class="vf-intro" id="500">
+
+  <div><!-- empty --></div>
+
+  <div class="vf-stack">
+
+  <h1 class="vf-intro__heading ">Error: 500</h1>
+<p class="vf-lede">There was a technical error.</p>
+
+
+<p class="vf-intro__text">Something has gone wrong with our web server when attempting to make this page.</p><p class="vf-intro__text">Unfortunately, the service you are trying to access is currently unavailable. <br>Please try again later.</p>
+  </div>
+</section>
+
+
+<section class="embl-grid embl-grid--has-centered-content">
+  <div></div>
+ <section>
+      <form id="ebi_search" action="/ebisearch/search.ebi" class="vf-form vf-form--search vf-form--search--mini | vf-sidebar vf-sidebar--end">
+        <div class="vf-sidebar__inner" style="flex-wrap: nowrap;">
+          <div class="vf-form__item">
+            <label class="vf-form__label vf-u-sr-only | vf-search__label" for="searchitem">Search</label>
+            <input name="query" type="search" placeholder="Find a gene, protein or chemical" id="searchitem" class="vf-form__input" required="" spellcheck="false" data-ms-editor="true">
+            <input name="requestFrom" id="requestFrom" type="hidden" class="vf-form__input" value="ebi_index">
+          </div>
+          <div class="vf-form__item">
+            <select name="db" id="db" tabindex="1" class="vf-form__select" style="max-width: 150px">
+              <option value="allebi">All</option>
+              <optgroup label="Science search">
+                <option value="genomes">Genomes &amp; metagenomes</option>
+                <option value="nucleotideSequences">Nucleotide sequences</option>
+                <option value="proteinSequences">Protein sequences</option>
+                <option value="smallMolecules">Small molecules</option>
+                <option value="geneExpression">Gene expression</option>
+                <option value="geneDiseaseAssociations">Gene-Disease Associations</option>
+                <option value="diseases">Diseases</option>
+                <option value="molecularInteractions">Molecular interactions</option>
+                <option value="reactionsPathways">Reactions &amp; pathways</option>
+                <option value="proteinFamilies">Protein families</option>
+                <option value="literature">Literature</option>
+                <option value="ontologies">Samples &amp; ontologies</option>
+              </optgroup>
+              <optgroup label="Search web content">
+                <option value="ebiweb_people">EMBL-EBI People</option>
+                <option value="ebiweb">EMBL-EBI web</option>
+                <!-- <option value="ebiweb">EMBL web</option> -->
+              </optgroup>
+            </select>
+          </div>
+
+
+          <button type="submit" class="vf-search__button | vf-button vf-button--primary">
+            <span class="vf-button__text">Search</span>
+          </button>
+        </div>
+      </form>
+      <p class="vf-text-body--5 vf-u-margin__bottom--0">
+        Example searches: <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;requestFrom=ebi_index&amp;query=blast">blast</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=keratin&amp;requestFrom=ebi_index">keratin</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=bfl1&amp;requestFrom=ebi_index">bfl1</a>
+        | <a class="vf-link" href="https://www.ebi.ac.uk/ebisearch/overview.ebi/about">About EBI Search</a>
+      </p>
+    </section>
+</section>
+
+<section class="embl-grid">
+  <div></div>
+  <div class="vf-content">
+    <h3>Need assistance?</h3>
+    <a class="vf-button vf-button--primary" href="https://www.ebi.ac.uk/support/error">Contact our support team</a>
+  </div>
+</section>
+
+    <!-- embl global footer -->
+
+
+<!-- embl-ebi global footer -->
+<link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=106902&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <script src="https://assets.emblstatic.net/vf/v2.4.9/scripts/scripts.js"></script>
+<!--
+  When using legacy EBI 1.x JS, we disable the old cookie banner.
+  https://stable.visual-framework.dev/components/ebi-header-footer/
+  -->
+<div class="vf-u-display-none" data-protection-message-disable="true"></div>
+
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<!-- <script src="/scripts/scripts.js?"></script> -->
+<script defer="defer" src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/js/script.js"></script>
+<link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css" media="all" />
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-629242-1', 'auto');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+        //- Code to execute when only the HTML document is loaded.
+        //- This doesn't wait for stylesheets,
+        // images, and subframes to finish loading.
+  });
+</script>
+
+  </body>
+</html>
+
+2025-03-17 15:17:46,051 [ERROR] Invalid genome build. Choose from ['GRCh37', 'GRCh38'].
+2025-03-17 15:20:04,645 [ERROR] Error fetching genomic HGVS: ' NM_000088.3:c.589G>T'
+2025-03-17 15:22:17,855 [ERROR] Error fetching VEP annotations: 500 - <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBLâs European Bionformatics Institute</title>
+
+
+
+    <link rel="icon" type="image/x-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon.ico" />
+<link rel="icon" type="image/png"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="192Ã192"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" />
+<!-- Android (192px) -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png" />
+<!-- For iPhone 4 Retina display (114px) -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png" />
+<!-- For iPad (72px) -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png" />
+<!-- For iPad retinat (144px) -->
+<link rel="apple-touch-icon-precomposed"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png" />
+<!-- For iPhone (57px) -->
+<link rel="mask-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg"
+  color="#ffffff" /> <!-- Safari icon for pinned tab -->
+<meta name="msapplication-TileColor" content="#2b5797" /> <!-- MS Icons -->
+<meta name="msapplication-TileImage"
+  content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/mstile-144x144.png" />
+
+
+
+
+
+
+    <!-- Search indexing optimisations -->
+    <meta class="swiftype" name="what" data-type="string" content="none" />
+    <meta class="swiftype" name="where" data-type="string" content="EMBL-EBI" />
+
+
+    <!-- Descriptive meta -->
+    <meta name="title" content="Error: 500">
+    <meta name="author" content="European Bioinformatics Institute">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="og:title" content="Error: 500">
+    <meta property="og:description" content="">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="twitter:title" content="Error: 500">
+    <meta property="twitter:description" content="">
+
+
+    <!-- Content descriptors -->
+    <meta name="embl:who" content="EMBL-EBI Web Dev">
+    <meta name="embl:where" content="EMBL-EBI">
+    <meta name="embl:what" content="none">
+    <meta name="embl:active" content="where">
+
+    <!-- Content role -->
+    <meta name="embl:utility" content="10">
+    <meta name="embl:reach" content="0">
+
+    <!-- Page infromation -->
+    <meta name="embl:maintainer" content="EMBL-EBI Web Dev">
+    <meta name="embl:last-review" content="2021.04.01">
+    <meta name="embl:review-cycle" content="365">
+    <meta name="embl:expiry" content="never">
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="404;dimension1">
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.7/css/styles.css">
+<!-- JS -->
+<script src="https://assets.emblstatic.net/vf/v2.5.7/scripts/scripts.js"></script>
+<head>
+  <body class="vf-body vf-stack vf-stack--400">
+    <style>head, title, link, meta, style, script {--vf-stack-margin--custom: 0; }</style>
+
+    <!-- See the EBI Header Footer docs: https://stable.visual-framework.dev/components/ebi-header-footer -->
+
+    <link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.4.5/assets/ebi-header-footer/ebi-header-footer.css" type="text/css" media="all">
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed"></header>
+
+
+
+
+<style>
+  .embl-grid {
+    margin-bottom: 48px;
+  }
+</style>
+
+<section class="vf-intro" id="500">
+
+  <div><!-- empty --></div>
+
+  <div class="vf-stack">
+
+  <h1 class="vf-intro__heading ">Error: 500</h1>
+<p class="vf-lede">There was a technical error.</p>
+
+
+<p class="vf-intro__text">Something has gone wrong with our web server when attempting to make this page.</p><p class="vf-intro__text">Unfortunately, the service you are trying to access is currently unavailable. <br>Please try again later.</p>
+  </div>
+</section>
+
+
+<section class="embl-grid embl-grid--has-centered-content">
+  <div></div>
+ <section>
+      <form id="ebi_search" action="/ebisearch/search.ebi" class="vf-form vf-form--search vf-form--search--mini | vf-sidebar vf-sidebar--end">
+        <div class="vf-sidebar__inner" style="flex-wrap: nowrap;">
+          <div class="vf-form__item">
+            <label class="vf-form__label vf-u-sr-only | vf-search__label" for="searchitem">Search</label>
+            <input name="query" type="search" placeholder="Find a gene, protein or chemical" id="searchitem" class="vf-form__input" required="" spellcheck="false" data-ms-editor="true">
+            <input name="requestFrom" id="requestFrom" type="hidden" class="vf-form__input" value="ebi_index">
+          </div>
+          <div class="vf-form__item">
+            <select name="db" id="db" tabindex="1" class="vf-form__select" style="max-width: 150px">
+              <option value="allebi">All</option>
+              <optgroup label="Science search">
+                <option value="genomes">Genomes &amp; metagenomes</option>
+                <option value="nucleotideSequences">Nucleotide sequences</option>
+                <option value="proteinSequences">Protein sequences</option>
+                <option value="smallMolecules">Small molecules</option>
+                <option value="geneExpression">Gene expression</option>
+                <option value="geneDiseaseAssociations">Gene-Disease Associations</option>
+                <option value="diseases">Diseases</option>
+                <option value="molecularInteractions">Molecular interactions</option>
+                <option value="reactionsPathways">Reactions &amp; pathways</option>
+                <option value="proteinFamilies">Protein families</option>
+                <option value="literature">Literature</option>
+                <option value="ontologies">Samples &amp; ontologies</option>
+              </optgroup>
+              <optgroup label="Search web content">
+                <option value="ebiweb_people">EMBL-EBI People</option>
+                <option value="ebiweb">EMBL-EBI web</option>
+                <!-- <option value="ebiweb">EMBL web</option> -->
+              </optgroup>
+            </select>
+          </div>
+
+
+          <button type="submit" class="vf-search__button | vf-button vf-button--primary">
+            <span class="vf-button__text">Search</span>
+          </button>
+        </div>
+      </form>
+      <p class="vf-text-body--5 vf-u-margin__bottom--0">
+        Example searches: <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;requestFrom=ebi_index&amp;query=blast">blast</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=keratin&amp;requestFrom=ebi_index">keratin</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=bfl1&amp;requestFrom=ebi_index">bfl1</a>
+        | <a class="vf-link" href="https://www.ebi.ac.uk/ebisearch/overview.ebi/about">About EBI Search</a>
+      </p>
+    </section>
+</section>
+
+<section class="embl-grid">
+  <div></div>
+  <div class="vf-content">
+    <h3>Need assistance?</h3>
+    <a class="vf-button vf-button--primary" href="https://www.ebi.ac.uk/support/error">Contact our support team</a>
+  </div>
+</section>
+
+    <!-- embl global footer -->
+
+
+<!-- embl-ebi global footer -->
+<link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=106902&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <script src="https://assets.emblstatic.net/vf/v2.4.9/scripts/scripts.js"></script>
+<!--
+  When using legacy EBI 1.x JS, we disable the old cookie banner.
+  https://stable.visual-framework.dev/components/ebi-header-footer/
+  -->
+<div class="vf-u-display-none" data-protection-message-disable="true"></div>
+
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<!-- <script src="/scripts/scripts.js?"></script> -->
+<script defer="defer" src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/js/script.js"></script>
+<link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css" media="all" />
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-629242-1', 'auto');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+        //- Code to execute when only the HTML document is loaded.
+        //- This doesn't wait for stylesheets,
+        // images, and subframes to finish loading.
+  });
+</script>
+
+  </body>
+</html>
+
+2025-03-17 15:41:57,968 [ERROR] Error fetching VEP annotations: 500 - <!doctype html>
+<html lang="en" class="vf-no-js">
+  <head>
+    <script>
+// Detect if JS is on and swap vf-no-js for vf-js on the html element
+(function(H){H.className=H.className.replace(/\bvf-no-js\b/,'vf-js')})(document.documentElement);
+</script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="all" href="/css/styles.css?" /> -->
+    <title>Error: 500 | EMBLâs European Bionformatics Institute</title>
+
+
+
+    <link rel="icon" type="image/x-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon.ico" />
+<link rel="icon" type="image/png"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="192Ã192"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" />
+<!-- Android (192px) -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png" />
+<!-- For iPhone 4 Retina display (114px) -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png" />
+<!-- For iPad (72px) -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png" />
+<!-- For iPad retinat (144px) -->
+<link rel="apple-touch-icon-precomposed"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png" />
+<!-- For iPhone (57px) -->
+<link rel="mask-icon"
+  href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg"
+  color="#ffffff" /> <!-- Safari icon for pinned tab -->
+<meta name="msapplication-TileColor" content="#2b5797" /> <!-- MS Icons -->
+<meta name="msapplication-TileImage"
+  content="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/images/logos/EMBL-EBI/favicons/mstile-144x144.png" />
+
+
+
+
+
+
+    <!-- Search indexing optimisations -->
+    <meta class="swiftype" name="what" data-type="string" content="none" />
+    <meta class="swiftype" name="where" data-type="string" content="EMBL-EBI" />
+
+
+    <!-- Descriptive meta -->
+    <meta name="title" content="Error: 500">
+    <meta name="author" content="European Bioinformatics Institute">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="og:title" content="Error: 500">
+    <meta property="og:description" content="">
+
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://www.ebi.ac.uk/info/error-pages/500-standalone/">
+    <meta property="twitter:title" content="Error: 500">
+    <meta property="twitter:description" content="">
+
+
+    <!-- Content descriptors -->
+    <meta name="embl:who" content="EMBL-EBI Web Dev">
+    <meta name="embl:where" content="EMBL-EBI">
+    <meta name="embl:what" content="none">
+    <meta name="embl:active" content="where">
+
+    <!-- Content role -->
+    <meta name="embl:utility" content="10">
+    <meta name="embl:reach" content="0">
+
+    <!-- Page infromation -->
+    <meta name="embl:maintainer" content="EMBL-EBI Web Dev">
+    <meta name="embl:last-review" content="2021.04.01">
+    <meta name="embl:review-cycle" content="365">
+    <meta name="embl:expiry" content="never">
+
+    <!-- analytics -->
+    <meta name="vf:page-type" content="404;dimension1">
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.5.7/css/styles.css">
+<!-- JS -->
+<script src="https://assets.emblstatic.net/vf/v2.5.7/scripts/scripts.js"></script>
+<head>
+  <body class="vf-body vf-stack vf-stack--400">
+    <style>head, title, link, meta, style, script {--vf-stack-margin--custom: 0; }</style>
+
+    <!-- See the EBI Header Footer docs: https://stable.visual-framework.dev/components/ebi-header-footer -->
+
+    <link rel="stylesheet" href="https://assets.emblstatic.net/vf/v2.4.5/assets/ebi-header-footer/ebi-header-footer.css" type="text/css" media="all">
+    <header id="masthead-black-bar" class="clearfix masthead-black-bar | ebi-header-footer vf-content vf-u-fullbleed"></header>
+
+
+
+
+<style>
+  .embl-grid {
+    margin-bottom: 48px;
+  }
+</style>
+
+<section class="vf-intro" id="500">
+
+  <div><!-- empty --></div>
+
+  <div class="vf-stack">
+
+  <h1 class="vf-intro__heading ">Error: 500</h1>
+<p class="vf-lede">There was a technical error.</p>
+
+
+<p class="vf-intro__text">Something has gone wrong with our web server when attempting to make this page.</p><p class="vf-intro__text">Unfortunately, the service you are trying to access is currently unavailable. <br>Please try again later.</p>
+  </div>
+</section>
+
+
+<section class="embl-grid embl-grid--has-centered-content">
+  <div></div>
+ <section>
+      <form id="ebi_search" action="/ebisearch/search.ebi" class="vf-form vf-form--search vf-form--search--mini | vf-sidebar vf-sidebar--end">
+        <div class="vf-sidebar__inner" style="flex-wrap: nowrap;">
+          <div class="vf-form__item">
+            <label class="vf-form__label vf-u-sr-only | vf-search__label" for="searchitem">Search</label>
+            <input name="query" type="search" placeholder="Find a gene, protein or chemical" id="searchitem" class="vf-form__input" required="" spellcheck="false" data-ms-editor="true">
+            <input name="requestFrom" id="requestFrom" type="hidden" class="vf-form__input" value="ebi_index">
+          </div>
+          <div class="vf-form__item">
+            <select name="db" id="db" tabindex="1" class="vf-form__select" style="max-width: 150px">
+              <option value="allebi">All</option>
+              <optgroup label="Science search">
+                <option value="genomes">Genomes &amp; metagenomes</option>
+                <option value="nucleotideSequences">Nucleotide sequences</option>
+                <option value="proteinSequences">Protein sequences</option>
+                <option value="smallMolecules">Small molecules</option>
+                <option value="geneExpression">Gene expression</option>
+                <option value="geneDiseaseAssociations">Gene-Disease Associations</option>
+                <option value="diseases">Diseases</option>
+                <option value="molecularInteractions">Molecular interactions</option>
+                <option value="reactionsPathways">Reactions &amp; pathways</option>
+                <option value="proteinFamilies">Protein families</option>
+                <option value="literature">Literature</option>
+                <option value="ontologies">Samples &amp; ontologies</option>
+              </optgroup>
+              <optgroup label="Search web content">
+                <option value="ebiweb_people">EMBL-EBI People</option>
+                <option value="ebiweb">EMBL-EBI web</option>
+                <!-- <option value="ebiweb">EMBL web</option> -->
+              </optgroup>
+            </select>
+          </div>
+
+
+          <button type="submit" class="vf-search__button | vf-button vf-button--primary">
+            <span class="vf-button__text">Search</span>
+          </button>
+        </div>
+      </form>
+      <p class="vf-text-body--5 vf-u-margin__bottom--0">
+        Example searches: <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;requestFrom=ebi_index&amp;query=blast">blast</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=keratin&amp;requestFrom=ebi_index">keratin</a>
+        <a class="vf-link" href="/ebisearch/search.ebi?db=allebi&amp;query=bfl1&amp;requestFrom=ebi_index">bfl1</a>
+        | <a class="vf-link" href="https://www.ebi.ac.uk/ebisearch/overview.ebi/about">About EBI Search</a>
+      </p>
+    </section>
+</section>
+
+<section class="embl-grid">
+  <div></div>
+  <div class="vf-content">
+    <h3>Need assistance?</h3>
+    <a class="vf-button vf-button--primary" href="https://www.ebi.ac.uk/support/error">Contact our support team</a>
+  </div>
+</section>
+
+    <!-- embl global footer -->
+
+
+<!-- embl-ebi global footer -->
+<link rel="import" href="https://www.embl.org/api/v1/pattern.html?filter-content-type=article&filter-id=106902&pattern=node-body&source=contenthub" data-target="self" data-embl-js-content-hub-loader>
+
+    <script src="https://assets.emblstatic.net/vf/v2.4.9/scripts/scripts.js"></script>
+<!--
+  When using legacy EBI 1.x JS, we disable the old cookie banner.
+  https://stable.visual-framework.dev/components/ebi-header-footer/
+  -->
+<div class="vf-u-display-none" data-protection-message-disable="true"></div>
+
+<!-- IE11 polyfill JS -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?flags=gated&features=default"></script>
+<!-- <script src="/scripts/scripts.js?"></script> -->
+<script defer="defer" src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.4/js/script.js"></script>
+<link rel="stylesheet" href="//ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css" type="text/css" media="all" />
+
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-629242-1', 'auto');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+
+        //- Code to execute when only the HTML document is loaded.
+        //- This doesn't wait for stylesheets,
+        // images, and subframes to finish loading.
+  });
+</script>
+
+  </body>
+</html>
+
+2025-03-17 18:43:07,259 [ERROR] Error fetching genomic HGVS: 'NM_000518.5:c.397A>C '
+2025-03-17 18:44:18,543 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-17 20:02:02,562 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-17 20:05:48,675 [ERROR] Invalid genome build. Choose from ['GRCh37', 'GRCh38'].
+2025-03-17 20:58:28,932 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-17 21:05:46,244 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-17 21:05:46,248 [INFO] Genome Build: GRCh38
+2025-03-17 21:05:46,272 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-17 21:05:46,964 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3435
+2025-03-17 21:05:46,967 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225660G>A
+2025-03-17 21:05:46,978 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-17 21:05:49,234 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs?hgvs=NC_000011.10%3Ag.5225660G%3EA HTTP/1.1" 400 58
+2025-03-17 21:05:49,235 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-19 22:46:51,945 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-19 22:46:51,949 [INFO] Genome Build: GRCh38
+2025-03-19 22:46:55,609 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-19 22:46:56,374 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3437
+2025-03-19 22:46:56,381 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225660G>A
+2025-03-19 22:46:56,393 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-19 22:46:57,112 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs?hgvs=NC_000011.10%3Ag.5225660G%3EA HTTP/1.1" 400 58
+2025-03-19 22:46:57,114 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-20 05:50:17,054 [INFO] Variant Description: NM_000518.5:c.383A>C
+2025-03-20 05:50:17,061 [INFO] Genome Build: GRCh38
+2025-03-20 05:50:20,108 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 05:50:20,822 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.383A%3EC/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 05:50:20,826 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225659T>G
+2025-03-20 05:50:20,858 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 05:50:21,498 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs?hgvs=NC_000011.10%3Ag.5225659T%3EG HTTP/1.1" 400 58
+2025-03-20 05:50:21,499 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-20 05:54:37,149 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-20 06:10:22,938 [INFO] Variant Description: NM_000518.5:c.383A>C
+2025-03-20 06:10:22,941 [INFO] Genome Build: GRCh38
+2025-03-20 06:10:22,959 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 06:10:23,680 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.383A%3EC/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 06:10:23,682 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225659T>G
+2025-03-20 06:10:23,694 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 06:10:24,337 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs?hgvs=NC_000011.10%3Ag.5225659T%3EG HTTP/1.1" 400 58
+2025-03-20 06:10:24,338 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-20 06:57:24,319 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 06:57:24,324 [INFO] Genome Build: GRCh38
+2025-03-20 06:57:24,348 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 06:57:25,078 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 06:57:25,082 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225660G>A
+2025-03-20 06:57:26,367 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 06:57:27,376 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs?hgvs=NC_000011.10%3Ag.5225660G%3EA HTTP/1.1" 400 58
+2025-03-20 06:57:27,378 [ERROR] Error fetching VEP annotations: 400 - {"error":"HGVS is a required parameter for this endpoint"}
+2025-03-20 18:52:22,839 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 18:52:22,845 [INFO] Genome Build: GRCh38
+2025-03-20 18:52:26,245 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 18:52:26,982 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 18:56:04,770 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 18:56:04,778 [INFO] Genome Build: GRCh38
+2025-03-20 18:56:04,820 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 18:56:05,592 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 18:57:32,901 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 18:57:32,902 [INFO] Genome Build: GRCh38
+2025-03-20 18:57:32,916 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 18:57:33,558 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 18:57:33,566 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 18:57:34,260 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:03:23,023 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 19:03:23,027 [INFO] Genome Build: GRCh38
+2025-03-20 19:03:23,050 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:03:23,705 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:03:23,713 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:03:24,432 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:03:24,434 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225660G>A
+2025-03-20 19:03:24,736 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 19:03:26,334 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000011.10:g.5225660G%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 5782
+2025-03-20 19:03:26,338 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'id': 'NC_000011.10:g.5225660G>A', 'most_severe_consequence': 'stop_gained', 'input': 'NC_000011.10:g.5225660G>A', 'allele_string': 'G/A', 'assembly_name': 'GRCh38', 'strand': 1, 'seq_region_name': '11', 'end': 5225660, 'transcript_consequences': [{'source': 'Ensembl', 'biotype': 'protein_coding', 'given_ref': 'G', 'impact': 'HIGH', 'spliceai': {'DS_DG': 0, 'DP_AL': -1, 'DP_DG': 2, 'SYMBOL': 'HBB', 'DP_DL': -2, 'DS_DL': 0, 'DS_AL': 0, 'DP_AG': 2, 'DS_AG': 0}, 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'gene_symbol': 'HBB', 'cds_start': 382, 'amino_acids': 'Q/*', 'protein_start': 128, 'strand': -1, 'consequence_terms': ['stop_gained'], 'cdna_start': 432, 'hgnc_id': 'HGNC:4827', 'cds_end': 382, 'codons': 'Cag/Tag', 'cdna_end': 432, 'protein_end': 128, 'transcript_id': 'ENST00000335295', 'gene_id': 'ENSG00000244734', 'used_ref': 'G'}, {'biotype': 'protein_coding', 'source': 'Ensembl', 'given_ref': 'G', 'impact': 'MODIFIER', 'spliceai': {'DS_DG': 0, 'DP_AL': -1, 'DP_DG': 2, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DS_AL': 0, 'DP_AG': 2, 'DS_AG': 0, 'DP_DL': -2}, 'flags': ['cds_end_NF'], 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'gene_symbol': 'HBB', 'strand': -1, 'consequence_terms': ['downstream_gene_variant'], 'hgnc_id': 'HGNC:4827', 'distance': 960, 'transcript_id': 'ENST00000380315', 'gene_id': 'ENSG00000244734', 'used_ref': 'G'}, {'variant_allele': 'A', 'consequence_terms': ['upstream_gene_variant'], 'given_ref': 'G', 'biotype': 'ribozyme', 'strand': -1, 'source': 'Ensembl', 'impact': 'MODIFIER', 'transcript_id': 'ENST00000408104', 'used_ref': 'G', 'gene_id': 'ENSG00000221031', 'distance': 1021}, {'gene_symbol': 'HBB', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'source': 'Ensembl', 'biotype': 'retained_intron', 'given_ref': 'G', 'spliceai': {'DP_DG': 2, 'DP_AL': -1, 'DS_DG': 0, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DS_AG': 0, 'DS_AL': 0, 'DP_AG': 2, 'DP_DL': -2}, 'impact': 'MODIFIER', 'transcript_id': 'ENST00000475226', 'gene_id': 'ENSG00000244734', 'used_ref': 'G', 'cdna_end': 314, 'cdna_start': 314, 'hgnc_id': 'HGNC:4827', 'strand': -1, 'consequence_terms': ['non_coding_transcript_exon_variant']}, {'transcript_id': 'ENST00000485743', 'gene_id': 'ENSG00000244734', 'used_ref': 'G', 'distance': 603, 'hgnc_id': 'HGNC:4827', 'strand': -1, 'consequence_terms': ['downstream_gene_variant'], 'gene_symbol': 'HBB', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'biotype': 'protein_coding', 'source': 'Ensembl', 'given_ref': 'G', 'spliceai': {'SYMBOL': 'HBB', 'DS_DG': 0, 'DP_AL': -1, 'DP_DG': 2, 'DS_AL': 0, 'DP_AG': 2, 'DS_AG': 0, 'DS_DL': 0, 'DP_DL': -2}, 'impact': 'MODIFIER'}, {'consequence_terms': ['3_prime_UTR_variant', 'NMD_transcript_variant'], 'strand': -1, 'hgnc_id': 'HGNC:4827', 'cdna_start': 416, 'cdna_end': 416, 'transcript_id': 'ENST00000633227', 'used_ref': 'G', 'gene_id': 'ENSG00000244734', 'given_ref': 'G', 'biotype': 'nonsense_mediated_decay', 'source': 'Ensembl', 'spliceai': {'DP_DL': -2, 'DS_DL': 0, 'DS_AG': 0, 'DP_AG': 2, 'DS_AL': 0, 'DP_DG': 2, 'DP_AL': -1, 'DS_DG': 0, 'SYMBOL': 'HBB'}, 'impact': 'MODIFIER', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'gene_symbol': 'HBB'}, {'used_ref': 'G', 'gene_id': 'ENSG00000285498', 'transcript_id': 'ENST00000644706', 'distance': 199, 'variant_allele': 'A', 'impact': 'MODIFIER', 'consequence_terms': ['upstream_gene_variant'], 'given_ref': 'G', 'strand': -1, 'biotype': 'TEC', 'source': 'Ensembl'}, {'impact': 'HIGH', 'spliceai': {'DS_DL': 0, 'DS_AG': 0, 'DS_AL': 0, 'DP_AG': 2, 'DP_DL': -2, 'DP_DG': 2, 'DP_AL': -1, 'DS_DG': 0, 'SYMBOL': 'HBB'}, 'given_ref': 'G', 'biotype': 'protein_coding', 'source': 'Ensembl', 'gene_symbol_source': 'HGNC', 'variant_allele': 'A', 'gene_symbol': 'HBB', 'amino_acids': 'Q/*', 'cds_start': 382, 'consequence_terms': ['stop_gained'], 'strand': -1, 'protein_start': 128, 'hgnc_id': 'HGNC:4827', 'cdna_start': 558, 'protein_end': 128, 'cdna_end': 558, 'codons': 'Cag/Tag', 'cds_end': 382, 'used_ref': 'G', 'gene_id': 'ENSG00000244734', 'transcript_id': 'ENST00000647020'}, {'impact': 'MODIFIER', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'given_ref': 'G', 'source': 'Ensembl', 'strand': 1, 'biotype': 'lncRNA', 'cdna_start': 197, 'variant_allele': 'A', 'cdna_end': 197, 'used_ref': 'G', 'gene_id': 'ENSG00000298932', 'transcript_id': 'ENST00000759072'}, {'gene_symbol': 'HBB', 'cds_start': 382, 'amino_acids': 'Q/*', 'biotype': 'protein_coding', 'source': 'RefSeq', 'given_ref': 'G', 'impact': 'HIGH', 'spliceai': {'DP_DL': -2, 'DS_AG': 0, 'DP_AG': 2, 'DS_AL': 0, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DP_DG': 2, 'DS_DG': 0, 'DP_AL': -1}, 'variant_allele': 'A', 'gene_symbol_source': 'EntrezGene', 'codons': 'Cag/Tag', 'cds_end': 382, 'cdna_end': 432, 'protein_end': 128, 'transcript_id': 'NM_000518.5', 'gene_id': '3043', 'used_ref': 'G', 'protein_start': 128, 'strand': -1, 'consequence_terms': ['stop_gained'], 'cdna_start': 432, 'hgnc_id': 'HGNC:4827'}], 'colocated_variants': [{'phenotype_or_disease': 1, 'end': 5225660, 'strand': 1, 'seq_region_name': '11', 'id': 'CM860028', 'somatic': 1, 'start': 5225660, 'allele_string': 'HGMD_MUTATION'}, {'strand': 1, 'phenotype_or_disease': 1, 'end': 5225660, 'allele_string': 'HGMD_MUTATION', 'start': 5225660, 'somatic': 1, 'id': 'CM880154', 'seq_region_name': '11'}, {'id': 'CM910209', 'somatic': 1, 'seq_region_name': '11', 'allele_string': 'HGMD_MUTATION', 'start': 5225660, 'end': 5225660, 'phenotype_or_disease': 1, 'strand': 1}, {'id': 'rs33971634', 'pubmed': [3707969, 938658, 1958498, 3384710, 3660178, 16114188, 28379995, 8161774, 10569730, 9450794], 'seq_region_name': '11', 'allele_string': 'G/A/C/T', 'var_synonyms': {'UniProt': ['VAR_003058'], 'HbVar': [961, 522, 523], 'OMIM': [141900.0027, 141900.0096], 'ClinVar': ['RCV000016367', 'RCV000016366', 'VCV000015186', 'RCV000016270', 'VCV000015115', 'RCV003226537', 'VCV001705074', 'RCV003478957']}, 'start': 5225660, 'clin_sig_allele': 'C:other;T:other;A:pathogenic', 'clin_sig': ['pathogenic', 'other'], 'end': 5225660, 'phenotype_or_disease': 1, 'frequencies': {'A': {'afr': 0, 'af': 0.0002, 'gnomadg_ami': 0, 'gnomadg_asj': 0, 'gnomadg_mid': 0, 'gnomadg_afr': 0, 'eur': 0, 'gnomadg_nfe': 0, 'gnomadg': 6.568e-06, 'sas': 0, 'gnomadg_amr': 6.545e-05, 'eas': 0, 'amr': 0.0014, 'gnomadg_fin': 0, 'gnomadg_remaining': 0, 'gnomadg_eas': 0, 'gnomadg_sas': 0}}, 'strand': 1}], 'start': 5225660}]"
+2025-03-20 19:07:57,500 [ERROR] Invalid genome build. Choose from ['GRCh37', 'GRCh38'].
+2025-03-20 19:08:19,280 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 19:08:19,282 [INFO] Genome Build: GRCh38
+2025-03-20 19:08:19,305 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:08:20,087 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:08:20,094 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:08:20,729 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:08:20,731 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225660G>A
+2025-03-20 19:08:20,736 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 19:08:22,032 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000011.10:g.5225660G%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 5782
+2025-03-20 19:08:22,036 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'start': 5225660, 'id': 'NC_000011.10:g.5225660G>A', 'input': 'NC_000011.10:g.5225660G>A', 'colocated_variants': [{'start': 5225660, 'seq_region_name': '11', 'allele_string': 'HGMD_MUTATION', 'phenotype_or_disease': 1, 'strand': 1, 'id': 'CM860028', 'somatic': 1, 'end': 5225660}, {'id': 'CM880154', 'strand': 1, 'somatic': 1, 'end': 5225660, 'start': 5225660, 'phenotype_or_disease': 1, 'seq_region_name': '11', 'allele_string': 'HGMD_MUTATION'}, {'phenotype_or_disease': 1, 'seq_region_name': '11', 'allele_string': 'HGMD_MUTATION', 'start': 5225660, 'somatic': 1, 'end': 5225660, 'id': 'CM910209', 'strand': 1}, {'end': 5225660, 'id': 'rs33971634', 'frequencies': {'A': {'gnomadg_eas': 0, 'eur': 0, 'eas': 0, 'gnomadg_nfe': 0, 'gnomadg_afr': 0, 'sas': 0, 'gnomadg_asj': 0, 'gnomadg_remaining': 0, 'gnomadg': 6.568e-06, 'gnomadg_amr': 6.545e-05, 'amr': 0.0014, 'gnomadg_ami': 0, 'gnomadg_fin': 0, 'af': 0.0002, 'gnomadg_mid': 0, 'gnomadg_sas': 0, 'afr': 0}}, 'clin_sig': ['pathogenic', 'other'], 'pubmed': [3707969, 938658, 1958498, 3384710, 3660178, 16114188, 28379995, 8161774, 10569730, 9450794], 'strand': 1, 'phenotype_or_disease': 1, 'var_synonyms': {'ClinVar': ['RCV000016367', 'RCV000016366', 'VCV000015186', 'RCV000016270', 'VCV000015115', 'RCV003226537', 'VCV001705074', 'RCV003478957'], 'OMIM': [141900.0027, 141900.0096], 'HbVar': [961, 522, 523], 'UniProt': ['VAR_003058']}, 'seq_region_name': '11', 'allele_string': 'G/A/C/T', 'start': 5225660, 'clin_sig_allele': 'C:other;T:other;A:pathogenic'}], 'most_severe_consequence': 'stop_gained', 'allele_string': 'G/A', 'end': 5225660, 'seq_region_name': '11', 'strand': 1, 'assembly_name': 'GRCh38', 'transcript_consequences': [{'consequence_terms': ['stop_gained'], 'source': 'Ensembl', 'impact': 'HIGH', 'variant_allele': 'A', 'biotype': 'protein_coding', 'gene_symbol_source': 'HGNC', 'used_ref': 'G', 'cds_end': 382, 'protein_end': 128, 'codons': 'Cag/Tag', 'transcript_id': 'ENST00000335295', 'cds_start': 382, 'hgnc_id': 'HGNC:4827', 'spliceai': {'DP_AL': -1, 'DP_DL': -2, 'DS_DG': 0, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DS_AG': 0, 'DP_DG': 2, 'DS_AL': 0, 'DP_AG': 2}, 'cdna_end': 432, 'amino_acids': 'Q/*', 'protein_start': 128, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB', 'cdna_start': 432, 'given_ref': 'G', 'strand': -1}, {'spliceai': {'DP_DL': -2, 'DP_AL': -1, 'DS_DG': 0, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DS_AG': 0, 'DP_DG': 2, 'DS_AL': 0, 'DP_AG': 2}, 'transcript_id': 'ENST00000380315', 'hgnc_id': 'HGNC:4827', 'gene_id': 'ENSG00000244734', 'given_ref': 'G', 'strand': -1, 'gene_symbol': 'HBB', 'source': 'Ensembl', 'consequence_terms': ['downstream_gene_variant'], 'flags': ['cds_end_NF'], 'distance': 960, 'impact': 'MODIFIER', 'biotype': 'protein_coding', 'variant_allele': 'A', 'used_ref': 'G', 'gene_symbol_source': 'HGNC'}, {'gene_id': 'ENSG00000221031', 'variant_allele': 'A', 'biotype': 'ribozyme', 'given_ref': 'G', 'used_ref': 'G', 'strand': -1, 'consequence_terms': ['upstream_gene_variant'], 'transcript_id': 'ENST00000408104', 'source': 'Ensembl', 'impact': 'MODIFIER', 'distance': 1021}, {'impact': 'MODIFIER', 'source': 'Ensembl', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'used_ref': 'G', 'gene_symbol_source': 'HGNC', 'biotype': 'retained_intron', 'variant_allele': 'A', 'cdna_end': 314, 'spliceai': {'DP_AG': 2, 'DS_DG': 0, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DP_DL': -2, 'DP_AL': -1, 'DS_AL': 0, 'DS_AG': 0, 'DP_DG': 2}, 'hgnc_id': 'HGNC:4827', 'transcript_id': 'ENST00000475226', 'strand': -1, 'given_ref': 'G', 'cdna_start': 314, 'gene_symbol': 'HBB', 'gene_id': 'ENSG00000244734'}, {'transcript_id': 'ENST00000485743', 'hgnc_id': 'HGNC:4827', 'spliceai': {'DP_AG': 2, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DS_DG': 0, 'DP_DL': -2, 'DP_AL': -1, 'DS_AL': 0, 'DP_DG': 2, 'DS_AG': 0}, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB', 'given_ref': 'G', 'strand': -1, 'consequence_terms': ['downstream_gene_variant'], 'source': 'Ensembl', 'distance': 603, 'impact': 'MODIFIER', 'biotype': 'protein_coding', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'used_ref': 'G'}, {'gene_id': 'ENSG00000244734', 'cdna_start': 416, 'given_ref': 'G', 'strand': -1, 'gene_symbol': 'HBB', 'spliceai': {'DP_AG': 2, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DS_DG': 0, 'DP_DL': -2, 'DP_AL': -1, 'DS_AL': 0, 'DP_DG': 2, 'DS_AG': 0}, 'hgnc_id': 'HGNC:4827', 'transcript_id': 'ENST00000633227', 'cdna_end': 416, 'variant_allele': 'A', 'biotype': 'nonsense_mediated_decay', 'used_ref': 'G', 'gene_symbol_source': 'HGNC', 'source': 'Ensembl', 'consequence_terms': ['3_prime_UTR_variant', 'NMD_transcript_variant'], 'impact': 'MODIFIER'}, {'distance': 199, 'impact': 'MODIFIER', 'consequence_terms': ['upstream_gene_variant'], 'transcript_id': 'ENST00000644706', 'source': 'Ensembl', 'given_ref': 'G', 'used_ref': 'G', 'strand': -1, 'gene_id': 'ENSG00000285498', 'biotype': 'TEC', 'variant_allele': 'A'}, {'cdna_end': 558, 'amino_acids': 'Q/*', 'protein_start': 128, 'protein_end': 128, 'codons': 'Cag/Tag', 'transcript_id': 'ENST00000647020', 'hgnc_id': 'HGNC:4827', 'cds_start': 382, 'spliceai': {'DS_DG': 0, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DP_DL': -2, 'DP_AL': -1, 'DS_AL': 0, 'DS_AG': 0, 'DP_DG': 2, 'DP_AG': 2}, 'gene_symbol': 'HBB', 'cdna_start': 558, 'strand': -1, 'given_ref': 'G', 'gene_id': 'ENSG00000244734', 'impact': 'HIGH', 'consequence_terms': ['stop_gained'], 'source': 'Ensembl', 'gene_symbol_source': 'HGNC', 'used_ref': 'G', 'cds_end': 382, 'variant_allele': 'A', 'biotype': 'protein_coding'}, {'impact': 'MODIFIER', 'cdna_end': 197, 'source': 'Ensembl', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'transcript_id': 'ENST00000759072', 'cdna_start': 197, 'strand': 1, 'given_ref': 'G', 'used_ref': 'G', 'variant_allele': 'A', 'biotype': 'lncRNA', 'gene_id': 'ENSG00000298932'}, {'protein_start': 128, 'amino_acids': 'Q/*', 'cdna_end': 432, 'spliceai': {'DP_AG': 2, 'DS_AG': 0, 'DP_DG': 2, 'DS_AL': 0, 'DP_AL': -1, 'DP_DL': -2, 'DS_DG': 0, 'DS_DL': 0, 'SYMBOL': 'HBB'}, 'hgnc_id': 'HGNC:4827', 'transcript_id': 'NM_000518.5', 'cds_start': 382, 'codons': 'Cag/Tag', 'protein_end': 128, 'given_ref': 'G', 'strand': -1, 'cdna_start': 432, 'gene_symbol': 'HBB', 'gene_id': '3043', 'impact': 'HIGH', 'source': 'RefSeq', 'consequence_terms': ['stop_gained'], 'used_ref': 'G', 'cds_end': 382, 'gene_symbol_source': 'EntrezGene', 'biotype': 'protein_coding', 'variant_allele': 'A'}]}]"
+2025-03-20 19:10:26,724 [INFO] Variant Description: NM_000518.5:c.382C>T
+2025-03-20 19:10:26,726 [INFO] Genome Build: GRCh38
+2025-03-20 19:10:26,743 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:10:27,419 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:10:27,426 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:10:28,174 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3436
+2025-03-20 19:10:28,175 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225660G>A
+2025-03-20 19:10:28,185 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 19:10:29,314 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000011.10:g.5225660G%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 5782
+2025-03-20 19:10:29,317 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'start': 5225660, 'input': 'NC_000011.10:g.5225660G>A', 'colocated_variants': [{'id': 'CM860028', 'strand': 1, 'somatic': 1, 'end': 5225660, 'start': 5225660, 'phenotype_or_disease': 1, 'seq_region_name': '11', 'allele_string': 'HGMD_MUTATION'}, {'strand': 1, 'id': 'CM880154', 'somatic': 1, 'end': 5225660, 'start': 5225660, 'seq_region_name': '11', 'allele_string': 'HGMD_MUTATION', 'phenotype_or_disease': 1}, {'phenotype_or_disease': 1, 'allele_string': 'HGMD_MUTATION', 'seq_region_name': '11', 'start': 5225660, 'end': 5225660, 'somatic': 1, 'id': 'CM910209', 'strand': 1}, {'phenotype_or_disease': 1, 'var_synonyms': {'UniProt': ['VAR_003058'], 'OMIM': [141900.0027, 141900.0096], 'HbVar': [961, 522, 523], 'ClinVar': ['RCV000016367', 'RCV000016366', 'VCV000015186', 'RCV000016270', 'VCV000015115', 'RCV003226537', 'VCV001705074', 'RCV003478957']}, 'seq_region_name': '11', 'allele_string': 'G/A/C/T', 'start': 5225660, 'clin_sig_allele': 'C:other;T:other;A:pathogenic', 'end': 5225660, 'id': 'rs33971634', 'frequencies': {'A': {'gnomadg_eas': 0, 'gnomadg_amr': 6.545e-05, 'gnomadg': 6.568e-06, 'gnomadg_remaining': 0, 'sas': 0, 'gnomadg_asj': 0, 'gnomadg_afr': 0, 'gnomadg_nfe': 0, 'eas': 0, 'eur': 0, 'gnomadg_mid': 0, 'gnomadg_fin': 0, 'af': 0.0002, 'gnomadg_ami': 0, 'amr': 0.0014, 'afr': 0, 'gnomadg_sas': 0}}, 'clin_sig': ['pathogenic', 'other'], 'pubmed': [3707969, 938658, 1958498, 3384710, 3660178, 16114188, 28379995, 8161774, 10569730, 9450794], 'strand': 1}], 'id': 'NC_000011.10:g.5225660G>A', 'end': 5225660, 'allele_string': 'G/A', 'most_severe_consequence': 'stop_gained', 'transcript_consequences': [{'impact': 'HIGH', 'source': 'Ensembl', 'consequence_terms': ['stop_gained'], 'cds_end': 382, 'used_ref': 'G', 'gene_symbol_source': 'HGNC', 'biotype': 'protein_coding', 'variant_allele': 'A', 'protein_start': 128, 'amino_acids': 'Q/*', 'cdna_end': 432, 'spliceai': {'DP_DL': -2, 'DP_AL': -1, 'DS_DG': 0, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DS_AG': 0, 'DP_DG': 2, 'DS_AL': 0, 'DP_AG': 2}, 'cds_start': 382, 'transcript_id': 'ENST00000335295', 'hgnc_id': 'HGNC:4827', 'protein_end': 128, 'codons': 'Cag/Tag', 'given_ref': 'G', 'strand': -1, 'cdna_start': 432, 'gene_symbol': 'HBB', 'gene_id': 'ENSG00000244734'}, {'transcript_id': 'ENST00000380315', 'hgnc_id': 'HGNC:4827', 'spliceai': {'DS_DL': 0, 'SYMBOL': 'HBB', 'DS_DG': 0, 'DP_DL': -2, 'DP_AL': -1, 'DS_AL': 0, 'DP_DG': 2, 'DS_AG': 0, 'DP_AG': 2}, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB', 'given_ref': 'G', 'strand': -1, 'consequence_terms': ['downstream_gene_variant'], 'source': 'Ensembl', 'impact': 'MODIFIER', 'flags': ['cds_end_NF'], 'distance': 960, 'variant_allele': 'A', 'biotype': 'protein_coding', 'gene_symbol_source': 'HGNC', 'used_ref': 'G'}, {'source': 'Ensembl', 'transcript_id': 'ENST00000408104', 'consequence_terms': ['upstream_gene_variant'], 'distance': 1021, 'impact': 'MODIFIER', 'biotype': 'ribozyme', 'variant_allele': 'A', 'gene_id': 'ENSG00000221031', 'strand': -1, 'used_ref': 'G', 'given_ref': 'G'}, {'transcript_id': 'ENST00000475226', 'hgnc_id': 'HGNC:4827', 'spliceai': {'DP_AG': 2, 'DS_AL': 0, 'DP_DG': 2, 'DS_AG': 0, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DS_DG': 0, 'DP_AL': -1, 'DP_DL': -2}, 'cdna_end': 314, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB', 'strand': -1, 'given_ref': 'G', 'cdna_start': 314, 'consequence_terms': ['non_coding_transcript_exon_variant'], 'source': 'Ensembl', 'impact': 'MODIFIER', 'biotype': 'retained_intron', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'used_ref': 'G'}, {'consequence_terms': ['downstream_gene_variant'], 'source': 'Ensembl', 'distance': 603, 'impact': 'MODIFIER', 'biotype': 'protein_coding', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'used_ref': 'G', 'transcript_id': 'ENST00000485743', 'hgnc_id': 'HGNC:4827', 'spliceai': {'DS_AL': 0, 'DP_DG': 2, 'DS_AG': 0, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DS_DG': 0, 'DP_DL': -2, 'DP_AL': -1, 'DP_AG': 2}, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB', 'strand': -1, 'given_ref': 'G'}, {'impact': 'MODIFIER', 'consequence_terms': ['3_prime_UTR_variant', 'NMD_transcript_variant'], 'source': 'Ensembl', 'gene_symbol_source': 'HGNC', 'used_ref': 'G', 'biotype': 'nonsense_mediated_decay', 'variant_allele': 'A', 'cdna_end': 416, 'hgnc_id': 'HGNC:4827', 'transcript_id': 'ENST00000633227', 'spliceai': {'DP_AG': 2, 'DS_AL': 0, 'DP_DG': 2, 'DS_AG': 0, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DS_DG': 0, 'DP_AL': -1, 'DP_DL': -2}, 'gene_symbol': 'HBB', 'given_ref': 'G', 'strand': -1, 'cdna_start': 416, 'gene_id': 'ENSG00000244734'}, {'consequence_terms': ['upstream_gene_variant'], 'transcript_id': 'ENST00000644706', 'source': 'Ensembl', 'impact': 'MODIFIER', 'distance': 199, 'gene_id': 'ENSG00000285498', 'variant_allele': 'A', 'biotype': 'TEC', 'strand': -1, 'given_ref': 'G', 'used_ref': 'G'}, {'gene_symbol': 'HBB', 'cdna_start': 558, 'given_ref': 'G', 'strand': -1, 'gene_id': 'ENSG00000244734', 'cdna_end': 558, 'amino_acids': 'Q/*', 'protein_start': 128, 'codons': 'Cag/Tag', 'protein_end': 128, 'transcript_id': 'ENST00000647020', 'hgnc_id': 'HGNC:4827', 'cds_start': 382, 'spliceai': {'DS_AL': 0, 'DS_AG': 0, 'DP_DG': 2, 'DS_DG': 0, 'SYMBOL': 'HBB', 'DS_DL': 0, 'DP_DL': -2, 'DP_AL': -1, 'DP_AG': 2}, 'gene_symbol_source': 'HGNC', 'used_ref': 'G', 'cds_end': 382, 'variant_allele': 'A', 'biotype': 'protein_coding', 'impact': 'HIGH', 'consequence_terms': ['stop_gained'], 'source': 'Ensembl'}, {'gene_id': 'ENSG00000298932', 'biotype': 'lncRNA', 'variant_allele': 'A', 'strand': 1, 'used_ref': 'G', 'given_ref': 'G', 'cdna_start': 197, 'consequence_terms': ['non_coding_transcript_exon_variant'], 'transcript_id': 'ENST00000759072', 'source': 'Ensembl', 'impact': 'MODIFIER', 'cdna_end': 197}, {'cdna_start': 432, 'given_ref': 'G', 'strand': -1, 'gene_symbol': 'HBB', 'gene_id': '3043', 'amino_acids': 'Q/*', 'protein_start': 128, 'cdna_end': 432, 'spliceai': {'DP_AL': -1, 'DP_DL': -2, 'DS_DL': 0, 'SYMBOL': 'HBB', 'DS_DG': 0, 'DP_DG': 2, 'DS_AG': 0, 'DS_AL': 0, 'DP_AG': 2}, 'protein_end': 128, 'codons': 'Cag/Tag', 'cds_start': 382, 'transcript_id': 'NM_000518.5', 'hgnc_id': 'HGNC:4827', 'cds_end': 382, 'used_ref': 'G', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'A', 'biotype': 'protein_coding', 'impact': 'HIGH', 'source': 'RefSeq', 'consequence_terms': ['stop_gained']}], 'assembly_name': 'GRCh38', 'seq_region_name': '11', 'strand': 1}]"
+2025-03-20 19:19:56,778 [INFO] Variant Description: NM_000546.6:c.1101-2_1101-1inv
+2025-03-20 19:19:56,782 [INFO] Genome Build: GRCh38
+2025-03-20 19:19:56,822 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:19:57,480 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000546.6:c.1101-2_1101-1inv/all?content-type=application%2Fjson HTTP/1.1" 200 3110
+2025-03-20 19:19:57,483 [DEBUG] Querying VEP with genomic HGVS: NC_000017.11:g.7669691_7669692inv
+2025-03-20 19:19:57,494 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 19:20:00,097 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000017.11:g.7669691_7669692inv?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 18552
+2025-03-20 19:20:00,153 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'input': 'NC_000017.11:g.7669691_7669692inv', 'assembly_name': 'GRCh38', 'strand': 1, 'seq_region_name': '17', 'allele_string': 'CT/AG', 'start': 7669691, 'end': 7669692, 'transcript_consequences': [{'transcript_id': 'ENST00000269305', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'impact': 'HIGH', 'biotype': 'protein_coding', 'given_ref': 'CT', 'source': 'Ensembl', 'strand': -1, 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT'}, {'impact': 'MODIFIER', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['intron_variant'], 'transcript_id': 'ENST00000359597', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'strand': -1, 'source': 'Ensembl', 'gene_id': 'ENSG00000141510'}, {'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000413465', 'consequence_terms': ['intron_variant'], 'impact': 'MODIFIER', 'biotype': 'protein_coding'}, {'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000420246', 'impact': 'HIGH', 'biotype': 'protein_coding', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT'}, {'gene_symbol': 'TP53', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG', 'impact': 'HIGH', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000445888', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998'}, {'gene_id': 'ENSG00000141510', 'strand': -1, 'source': 'Ensembl', 'given_ref': 'CT', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'transcript_id': 'ENST00000455263', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'transcript_id': 'ENST00000503591', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': 'ENSG00000141510', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT'}, {'gene_id': 'ENSG00000141510', 'given_ref': 'CT', 'source': 'Ensembl', 'strand': -1, 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000504290', 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'biotype': 'protein_coding', 'impact': 'HIGH', 'transcript_id': 'ENST00000504937', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': 'ENSG00000141510', 'given_ref': 'CT', 'strand': -1, 'source': 'Ensembl'}, {'gene_symbol': 'TP53', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'variant_allele': 'AG', 'distance': 4834, 'impact': 'MODIFIER', 'biotype': 'retained_intron', 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000505014', 'consequence_terms': ['downstream_gene_variant']}, {'variant_allele': 'AG', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'gene_id': 'ENSG00000141510', 'source': 'Ensembl', 'given_ref': 'CT', 'strand': -1, 'gene_symbol': 'TP53', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000508793', 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'gene_symbol': 'TP53', 'gene_id': 'ENSG00000141510', 'strand': -1, 'given_ref': 'CT', 'source': 'Ensembl', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'variant_allele': 'AG', 'biotype': 'protein_coding', 'impact': 'HIGH', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000509690'}, {'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'strand': -1, 'given_ref': 'CT', 'source': 'Ensembl', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000510385', 'impact': 'HIGH', 'biotype': 'protein_coding'}, {'gene_symbol': 'TP53', 'strand': -1, 'given_ref': 'CT', 'source': 'Ensembl', 'gene_id': 'ENSG00000141510', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG', 'impact': 'HIGH', 'biotype': 'protein_coding', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000514944', 'hgnc_id': 'HGNC:11998'}, {'biotype': 'protein_coding_CDS_not_defined', 'impact': 'MODIFIER', 'consequence_terms': ['downstream_gene_variant'], 'transcript_id': 'ENST00000574684', 'hgnc_id': 'HGNC:11998', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'distance': 4562, 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': 'ENSG00000141510', 'given_ref': 'CT', 'source': 'Ensembl', 'strand': -1}, {'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': 'ENSG00000141510', 'given_ref': 'CT', 'source': 'Ensembl', 'strand': -1, 'biotype': 'protein_coding', 'impact': 'HIGH', 'transcript_id': 'ENST00000576024', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998'}, {'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000604348', 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': 'ENSG00000141510', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC'}, {'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000610292', 'impact': 'HIGH', 'biotype': 'protein_coding', 'given_ref': 'CT', 'strand': -1, 'source': 'Ensembl', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC'}, {'gene_symbol': 'TP53', 'strand': -1, 'source': 'Ensembl', 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'variant_allele': 'AG', 'impact': 'HIGH', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000610538', 'consequence_terms': ['splice_acceptor_variant']}, {'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000610623', 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'gene_id': 'ENSG00000141510', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_symbol': 'TP53'}, {'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000618944', 'impact': 'HIGH', 'biotype': 'protein_coding'}, {'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000619186', 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': 'ENSG00000141510', 'strand': -1, 'given_ref': 'CT', 'source': 'Ensembl', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT'}, {'biotype': 'protein_coding', 'impact': 'HIGH', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'ENST00000619485', 'hgnc_id': 'HGNC:11998', 'gene_symbol': 'TP53', 'gene_id': 'ENSG00000141510', 'given_ref': 'CT', 'strand': -1, 'source': 'Ensembl', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG'}, {'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': 'ENSG00000141510', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'biotype': 'protein_coding', 'impact': 'HIGH', 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000620739', 'consequence_terms': ['splice_acceptor_variant']}, {'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'transcript_id': 'ENST00000622645', 'impact': 'HIGH', 'biotype': 'protein_coding', 'given_ref': 'CT', 'strand': -1, 'source': 'Ensembl', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT'}, {'transcript_id': 'ENST00000635293', 'consequence_terms': ['intron_variant', 'NMD_transcript_variant'], 'hgnc_id': 'HGNC:11998', 'impact': 'MODIFIER', 'biotype': 'nonsense_mediated_decay', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'given_ref': 'CT', 'strand': -1, 'source': 'Ensembl', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53'}, {'transcript_id': 'ENST00000714356', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['intron_variant'], 'impact': 'MODIFIER', 'biotype': 'protein_coding', 'strand': -1, 'source': 'Ensembl', 'given_ref': 'CT', 'gene_id': 'ENSG00000141510', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT'}, {'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'source': 'Ensembl', 'strand': -1, 'gene_id': 'ENSG00000141510', 'impact': 'HIGH', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000714357', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998'}, {'impact': 'HIGH', 'biotype': 'nonsense_mediated_decay', 'consequence_terms': ['splice_acceptor_variant', 'NMD_transcript_variant'], 'transcript_id': 'ENST00000714358', 'hgnc_id': 'HGNC:11998', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'source': 'Ensembl', 'strand': -1, 'gene_id': 'ENSG00000141510'}, {'variant_allele': 'AG', 'gene_symbol_source': 'HGNC', 'used_ref': 'CT', 'gene_id': 'ENSG00000141510', 'source': 'Ensembl', 'strand': -1, 'given_ref': 'CT', 'gene_symbol': 'TP53', 'transcript_id': 'ENST00000714359', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'cds_end': 1194, 'codons': 'cAG/cCT', 'transcript_id': 'ENST00000714408', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['missense_variant'], 'biotype': 'protein_coding', 'amino_acids': 'Q/P', 'variant_allele': 'AG', 'source': 'Ensembl', 'given_ref': 'CT', 'cdna_end': 1336, 'cdna_start': 1335, 'protein_end': 398, 'impact': 'MODERATE', 'protein_start': 398, 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'gene_id': 'ENSG00000141510', 'strand': -1, 'cds_start': 1193, 'gene_symbol': 'TP53'}, {'gene_symbol': 'TP53', 'strand': -1, 'gene_id': 'ENSG00000141510', 'used_ref': 'CT', 'gene_symbol_source': 'HGNC', 'impact': 'MODIFIER', 'cdna_start': 2159, 'cdna_end': 2160, 'given_ref': 'CT', 'source': 'Ensembl', 'variant_allele': 'AG', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000714409', 'consequence_terms': ['3_prime_UTR_variant'], 'hgnc_id': 'HGNC:11998'}, {'gene_symbol': 'TP53', 'gene_id': '7157', 'given_ref': 'CT', 'source': 'RefSeq', 'strand': -1, 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'biotype': 'protein_coding', 'impact': 'HIGH', 'transcript_id': 'NM_000546.6', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant']}, {'transcript_id': 'NM_001126112.3', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': '7157', 'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1, 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT'}, {'gene_symbol': 'TP53', 'strand': -1, 'given_ref': 'CT', 'source': 'RefSeq', 'gene_id': '7157', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'impact': 'HIGH', 'biotype': 'protein_coding', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001126113.3', 'hgnc_id': 'HGNC:11998'}, {'impact': 'HIGH', 'biotype': 'protein_coding', 'transcript_id': 'NM_001126114.3', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'gene_symbol': 'TP53', 'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1, 'gene_id': '7157', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG'}, {'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': '7157', 'source': 'RefSeq', 'strand': -1, 'given_ref': 'CT', 'biotype': 'protein_coding', 'impact': 'HIGH', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001126115.2', 'hgnc_id': 'HGNC:11998'}, {'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001126116.2', 'biotype': 'protein_coding', 'impact': 'HIGH', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'gene_id': '7157', 'given_ref': 'CT', 'strand': -1, 'source': 'RefSeq', 'gene_symbol': 'TP53'}, {'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'given_ref': 'CT', 'strand': -1, 'source': 'RefSeq', 'gene_id': '7157', 'gene_symbol': 'TP53', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001126117.2', 'hgnc_id': 'HGNC:11998', 'impact': 'HIGH', 'biotype': 'protein_coding'}, {'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'source': 'RefSeq', 'strand': -1, 'given_ref': 'CT', 'gene_id': '7157', 'impact': 'HIGH', 'biotype': 'protein_coding', 'transcript_id': 'NM_001126118.2', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998'}, {'impact': 'HIGH', 'biotype': 'protein_coding', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'transcript_id': 'NM_001276695.3', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'source': 'RefSeq', 'strand': -1, 'gene_id': '7157'}, {'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001276696.3', 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'gene_id': '7157', 'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1, 'gene_symbol': 'TP53'}, {'transcript_id': 'NM_001276697.3', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH', 'variant_allele': 'AG', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'gene_id': '7157', 'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1, 'gene_symbol': 'TP53'}, {'gene_id': '7157', 'given_ref': 'CT', 'source': 'RefSeq', 'strand': -1, 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'transcript_id': 'NM_001276698.3', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'gene_id': '7157', 'source': 'RefSeq', 'strand': -1, 'given_ref': 'CT', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'transcript_id': 'NM_001276699.3', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': '7157', 'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1, 'biotype': 'protein_coding', 'impact': 'HIGH', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001276760.3'}, {'gene_id': '7157', 'strand': -1, 'given_ref': 'CT', 'source': 'RefSeq', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001276761.3', 'hgnc_id': 'HGNC:11998', 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': '7157', 'strand': -1, 'source': 'RefSeq', 'given_ref': 'CT', 'biotype': 'protein_coding', 'impact': 'HIGH', 'transcript_id': 'NM_001407262.1', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998'}, {'gene_symbol': 'TP53', 'gene_id': '7157', 'given_ref': 'CT', 'source': 'RefSeq', 'strand': -1, 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'variant_allele': 'AG', 'biotype': 'protein_coding', 'impact': 'HIGH', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001407263.1'}, {'impact': 'HIGH', 'biotype': 'protein_coding', 'transcript_id': 'NM_001407264.1', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'source': 'RefSeq', 'strand': -1, 'gene_id': '7157'}, {'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'source': 'RefSeq', 'strand': -1, 'gene_id': '7157', 'impact': 'HIGH', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:11998', 'transcript_id': 'NM_001407265.1', 'consequence_terms': ['splice_acceptor_variant']}, {'impact': 'HIGH', 'biotype': 'protein_coding', 'transcript_id': 'NM_001407266.1', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'gene_symbol': 'TP53', 'given_ref': 'CT', 'strand': -1, 'source': 'RefSeq', 'gene_id': '7157', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'variant_allele': 'AG'}, {'impact': 'HIGH', 'biotype': 'protein_coding', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001407267.1', 'hgnc_id': 'HGNC:11998', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'source': 'RefSeq', 'strand': -1, 'given_ref': 'CT', 'gene_id': '7157'}, {'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1, 'gene_id': '7157', 'gene_symbol': 'TP53', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'transcript_id': 'NM_001407268.1', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'impact': 'HIGH', 'biotype': 'protein_coding'}, {'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'strand': -1, 'given_ref': 'CT', 'source': 'RefSeq', 'gene_id': '7157', 'gene_symbol': 'TP53', 'transcript_id': 'NM_001407269.1', 'hgnc_id': 'HGNC:11998', 'consequence_terms': ['splice_acceptor_variant'], 'impact': 'HIGH', 'biotype': 'protein_coding'}, {'transcript_id': 'NM_001407270.1', 'consequence_terms': ['splice_acceptor_variant'], 'hgnc_id': 'HGNC:11998', 'impact': 'HIGH', 'biotype': 'protein_coding', 'variant_allele': 'AG', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'CT', 'strand': -1, 'given_ref': 'CT', 'source': 'RefSeq', 'gene_id': '7157', 'gene_symbol': 'TP53'}, {'biotype': 'protein_coding', 'impact': 'HIGH', 'consequence_terms': ['splice_acceptor_variant'], 'transcript_id': 'NM_001407271.1', 'hgnc_id': 'HGNC:11998', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'AG', 'gene_symbol': 'TP53', 'gene_id': '7157', 'source': 'RefSeq', 'given_ref': 'CT', 'strand': -1}, {'transcript_id': 'NR_176326.1', 'consequence_terms': ['splice_acceptor_variant', 'non_coding_transcript_variant'], 'hgnc_id': 'HGNC:11998', 'impact': 'HIGH', 'biotype': 'misc_RNA', 'variant_allele': 'AG', 'used_ref': 'CT', 'gene_symbol_source': 'EntrezGene', 'strand': -1, 'source': 'RefSeq', 'given_ref': 'CT', 'gene_id': '7157', 'gene_symbol': 'TP53'}], 'id': 'NC_000017.11:g.7669691_7669692inv', 'most_severe_consequence': 'splice_acceptor_variant'}]"
+2025-03-20 19:50:13,349 [INFO] Variant Description: NM_000377.3:c.52G>A
+2025-03-20 19:50:13,350 [INFO] Genome Build: GRCh38
+2025-03-20 19:50:13,379 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:51:47,971 [INFO] Variant Description: NM_000377.3:c.52G>A
+2025-03-20 19:51:47,974 [INFO] Genome Build: GRCh38
+2025-03-20 19:51:48,039 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 19:51:48,776 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000377.3:c.52G%3EA/all?content-type=application%2Fjson HTTP/1.1" 200 3586
+2025-03-20 19:51:48,779 [DEBUG] Querying VEP with genomic HGVS: NC_000023.11:g.48683905G>A
+2025-03-20 19:51:48,813 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 19:51:50,229 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000023.11:g.48683905G%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 9156
+2025-03-20 19:51:50,232 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'input': 'NC_000023.11:g.48683905G>A', 'seq_region_name': 'X', 'transcript_consequences': [{'impact': 'MODERATE', 'given_ref': 'G', 'strand': 1, 'cdna_start': 107, 'hgnc_id': 'HGNC:12731', 'cdna_end': 107, 'sift_score': 0.21, 'protein_end': 18, 'polyphen_prediction': 'benign', 'cds_start': 52, 'gene_symbol': 'WAS', 'source': 'Ensembl', 'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att', 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'polyphen_score': 0.079, 'sift_prediction': 'tolerated', 'cds_end': 52, 'transcript_id': 'ENST00000376701', 'biotype': 'protein_coding', 'gene_id': 'ENSG00000015285', 'spliceai': {'DP_DL': -1, 'DS_DL': 0, 'DS_DG': 0, 'DP_DG': 33, 'DS_AG': 0, 'DP_AG': 33, 'DS_AL': 0, 'SYMBOL': 'WAS', 'DP_AL': 9}, 'protein_start': 18, 'amino_acids': 'V/I', 'used_ref': 'G'}, {'used_ref': 'G', 'protein_start': 18, 'amino_acids': 'V/I', 'gene_id': 'ENSG00000015285', 'spliceai': {'DS_AG': 0, 'DP_DG': 33, 'DS_DG': 0, 'DS_DL': 0, 'DP_DL': -1, 'DP_AL': 9, 'SYMBOL': 'WAS', 'DS_AL': 0, 'DP_AG': 33}, 'transcript_id': 'ENST00000450772', 'biotype': 'protein_coding', 'cds_end': 52, 'flags': ['cds_end_NF'], 'sift_prediction': 'tolerated', 'polyphen_score': 0.079, 'gene_symbol_source': 'HGNC', 'variant_allele': 'A', 'codons': 'Gtt/Att', 'consequence_terms': ['missense_variant'], 'gene_symbol': 'WAS', 'cds_start': 52, 'source': 'Ensembl', 'polyphen_prediction': 'benign', 'sift_score': 0.17, 'cdna_end': 335, 'protein_end': 18, 'hgnc_id': 'HGNC:12731', 'cdna_start': 335, 'strand': 1, 'given_ref': 'G', 'impact': 'MODERATE'}, {'gene_symbol': 'WAS', 'source': 'Ensembl', 'hgnc_id': 'HGNC:12731', 'given_ref': 'G', 'impact': 'MODIFIER', 'strand': 1, 'used_ref': 'G', 'spliceai': {'DS_DL': 0, 'DS_DG': 0, 'DP_DL': -1, 'DS_AG': 0, 'DP_DG': 33, 'DS_AL': 0, 'DP_AG': 33, 'SYMBOL': 'WAS', 'DP_AL': 9}, 'gene_id': 'ENSG00000015285', 'transcript_id': 'ENST00000474174', 'biotype': 'retained_intron', 'distance': 4374, 'consequence_terms': ['upstream_gene_variant'], 'gene_symbol_source': 'HGNC', 'variant_allele': 'A'}, {'used_ref': 'G', 'spliceai': {'DS_DG': 0, 'DS_DL': 0, 'DP_DL': -1, 'DP_DG': 33, 'DS_AG': 0, 'DS_AL': 0, 'DP_AG': 33, 'DP_AL': 9, 'SYMBOL': 'WAS'}, 'gene_id': 'ENSG00000015285', 'biotype': 'retained_intron', 'transcript_id': 'ENST00000483750', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'gene_symbol_source': 'HGNC', 'variant_allele': 'A', 'gene_symbol': 'WAS', 'source': 'Ensembl', 'cdna_end': 85, 'cdna_start': 85, 'hgnc_id': 'HGNC:12731', 'given_ref': 'G', 'impact': 'MODIFIER', 'strand': 1}, {'impact': 'MODIFIER', 'given_ref': 'G', 'strand': 1, 'hgnc_id': 'HGNC:12731', 'source': 'Ensembl', 'gene_symbol': 'WAS', 'consequence_terms': ['upstream_gene_variant'], 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'distance': 1857, 'biotype': 'retained_intron', 'transcript_id': 'ENST00000490627', 'gene_id': 'ENSG00000015285', 'spliceai': {'DP_AG': 33, 'DS_AL': 0, 'SYMBOL': 'WAS', 'DP_AL': 9, 'DP_DL': -1, 'DS_DL': 0, 'DS_DG': 0, 'DS_AG': 0, 'DP_DG': 33}, 'used_ref': 'G'}, {'polyphen_score': 0.079, 'sift_prediction': 'tolerated', 'codons': 'Gtt/Att', 'consequence_terms': ['missense_variant'], 'gene_symbol_source': 'HGNC', 'variant_allele': 'A', 'protein_start': 18, 'amino_acids': 'V/I', 'used_ref': 'G', 'cds_end': 52, 'spliceai': {'DS_AG': 0, 'DP_DG': 33, 'DP_DL': -1, 'DS_DL': 0, 'DS_DG': 0, 'SYMBOL': 'WAS', 'DP_AL': 9, 'DP_AG': 33, 'DS_AL': 0}, 'gene_id': 'ENSG00000015285', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000698625', 'cdna_start': 231, 'hgnc_id': 'HGNC:12731', 'given_ref': 'G', 'impact': 'MODERATE', 'strand': 1, 'source': 'Ensembl', 'gene_symbol': 'WAS', 'cds_start': 52, 'polyphen_prediction': 'benign', 'cdna_end': 231, 'sift_score': 0.21, 'protein_end': 18}, {'given_ref': 'G', 'impact': 'MODERATE', 'strand': 1, 'cdna_start': 78, 'hgnc_id': 'HGNC:12731', 'polyphen_prediction': 'benign', 'cdna_end': 78, 'sift_score': 0.22, 'protein_end': 18, 'cds_start': 52, 'gene_symbol': 'WAS', 'source': 'Ensembl', 'codons': 'Gtt/Att', 'consequence_terms': ['missense_variant'], 'gene_symbol_source': 'HGNC', 'variant_allele': 'A', 'polyphen_score': 0.164, 'sift_prediction': 'tolerated', 'cds_end': 52, 'spliceai': {'SYMBOL': 'WAS', 'DP_AL': 9, 'DP_AG': 33, 'DS_AL': 0, 'DP_DG': 33, 'DS_AG': 0, 'DP_DL': -1, 'DS_DL': 0, 'DS_DG': 0}, 'gene_id': 'ENSG00000015285', 'transcript_id': 'ENST00000698626', 'biotype': 'protein_coding', 'amino_acids': 'V/I', 'protein_start': 18, 'used_ref': 'G'}, {'used_ref': 'G', 'amino_acids': 'V/I', 'protein_start': 18, 'biotype': 'protein_coding', 'transcript_id': 'ENST00000698635', 'spliceai': {'DS_DG': 0, 'DS_DL': 0, 'DP_DL': -1, 'DP_DG': 33, 'DS_AG': 0, 'DS_AL': 0, 'DP_AG': 33, 'DP_AL': 9, 'SYMBOL': 'WAS'}, 'gene_id': 'ENSG00000015285', 'cds_end': 52, 'sift_prediction': 'tolerated_low_confidence', 'polyphen_score': 0.307, 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att', 'source': 'Ensembl', 'gene_symbol': 'WAS', 'cds_start': 52, 'sift_score': 0.17, 'protein_end': 18, 'cdna_end': 101, 'polyphen_prediction': 'benign', 'hgnc_id': 'HGNC:12731', 'cdna_start': 101, 'strand': 1, 'impact': 'MODERATE', 'given_ref': 'G'}, {'variant_allele': 'A', 'strand': -1, 'consequence_terms': ['intron_variant', 'non_coding_transcript_variant'], 'impact': 'MODIFIER', 'given_ref': 'G', 'transcript_id': 'ENST00000746890', 'biotype': 'lncRNA', 'gene_id': 'ENSG00000232828', 'used_ref': 'G', 'source': 'Ensembl'}, {'protein_start': 18, 'amino_acids': 'V/I', 'used_ref': 'G', 'cds_end': 52, 'transcript_id': 'NM_000377.3', 'biotype': 'protein_coding', 'spliceai': {'DP_AL': 9, 'SYMBOL': 'WAS', 'DS_AL': 0, 'DP_AG': 33, 'DP_DG': 33, 'DS_AG': 0, 'DS_DG': 0, 'DS_DL': 0, 'DP_DL': -1}, 'gene_id': '7454', 'polyphen_score': 0.079, 'sift_prediction': 'tolerated', 'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att', 'variant_allele': 'A', 'gene_symbol_source': 'EntrezGene', 'gene_symbol': 'WAS', 'source': 'RefSeq', 'cds_start': 52, 'sift_score': 0.21, 'cdna_end': 107, 'protein_end': 18, 'polyphen_prediction': 'benign', 'cdna_start': 107, 'hgnc_id': 'HGNC:12731', 'impact': 'MODERATE', 'given_ref': 'G', 'strand': 1}, {'source': 'RefSeq', 'gene_symbol': 'WAS', 'cds_start': 52, 'cdna_end': 199, 'protein_end': 18, 'hgnc_id': 'HGNC:12731', 'cdna_start': 199, 'strand': 1, 'impact': 'MODERATE', 'given_ref': 'G', 'used_ref': 'G', 'protein_start': 18, 'amino_acids': 'V/I', 'transcript_id': 'XM_011543977.3', 'biotype': 'protein_coding', 'gene_id': '7454', 'spliceai': {'SYMBOL': 'WAS', 'DP_AL': 9, 'DP_AG': 33, 'DS_AL': 0, 'DS_AG': 0, 'DP_DG': 33, 'DP_DL': -1, 'DS_DL': 0, 'DS_DG': 0}, 'cds_end': 52, 'variant_allele': 'A', 'gene_symbol_source': 'EntrezGene', 'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att'}, {'cdna_start': 199, 'hgnc_id': 'HGNC:12731', 'impact': 'MODERATE', 'given_ref': 'G', 'strand': 1, 'gene_symbol': 'WAS', 'source': 'RefSeq', 'cds_start': 52, 'sift_score': 0.17, 'protein_end': 18, 'cdna_end': 199, 'polyphen_prediction': 'benign', 'polyphen_score': 0.307, 'sift_prediction': 'tolerated_low_confidence', 'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att', 'variant_allele': 'A', 'gene_symbol_source': 'EntrezGene', 'amino_acids': 'V/I', 'protein_start': 18, 'used_ref': 'G', 'cds_end': 52, 'biotype': 'protein_coding', 'transcript_id': 'XM_017029786.2', 'spliceai': {'DP_AG': 33, 'DS_AL': 0, 'DP_AL': 9, 'SYMBOL': 'WAS', 'DP_DL': -1, 'DS_DG': 0, 'DS_DL': 0, 'DP_DG': 33, 'DS_AG': 0}, 'gene_id': '7454'}, {'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att', 'variant_allele': 'A', 'gene_symbol_source': 'EntrezGene', 'polyphen_score': 0.307, 'sift_prediction': 'tolerated_low_confidence', 'cds_end': 52, 'transcript_id': 'XM_047442432.1', 'biotype': 'protein_coding', 'spliceai': {'DS_AL': 0, 'DP_AG': 33, 'DP_AL': 9, 'SYMBOL': 'WAS', 'DS_DG': 0, 'DS_DL': 0, 'DP_DL': -1, 'DP_DG': 33, 'DS_AG': 0}, 'gene_id': '7454', 'amino_acids': 'V/I', 'protein_start': 18, 'used_ref': 'G', 'impact': 'MODERATE', 'given_ref': 'G', 'strand': 1, 'cdna_start': 125, 'hgnc_id': 'HGNC:12731', 'sift_score': 0.17, 'cdna_end': 125, 'protein_end': 18, 'polyphen_prediction': 'benign', 'cds_start': 52, 'gene_symbol': 'WAS', 'source': 'RefSeq'}, {'variant_allele': 'A', 'gene_symbol_source': 'EntrezGene', 'consequence_terms': ['missense_variant'], 'codons': 'Gtt/Att', 'transcript_id': 'XM_047442433.1', 'biotype': 'protein_coding', 'gene_id': '7454', 'spliceai': {'DP_AG': 33, 'DS_AL': 0, 'DP_AL': 9, 'SYMBOL': 'WAS', 'DP_DL': -1, 'DS_DG': 0, 'DS_DL': 0, 'DS_AG': 0, 'DP_DG': 33}, 'cds_end': 52, 'used_ref': 'G', 'protein_start': 18, 'amino_acids': 'V/I', 'strand': 1, 'impact': 'MODERATE', 'given_ref': 'G', 'hgnc_id': 'HGNC:12731', 'cdna_start': 199, 'cdna_end': 199, 'protein_end': 18, 'gene_symbol': 'WAS', 'source': 'RefSeq', 'cds_start': 52}, {'gene_symbol': 'WAS', 'source': 'RefSeq', 'cds_start': 52, 'polyphen_prediction': 'benign', 'protein_end': 18, 'sift_score': 0.21, 'cdna_end': 199, 'hgnc_id': 'HGNC:12731', 'cdna_start': 199, 'strand': 1, 'given_ref': 'G', 'impact': 'MODERATE', 'used_ref': 'G', 'protein_start': 18, 'amino_acids': 'V/I', 'gene_id': '7454', 'spliceai': {'DP_AL': 9, 'SYMBOL': 'WAS', 'DP_AG': 33, 'DS_AL': 0, 'DS_AG': 0, 'DP_DG': 33, 'DP_DL': -1, 'DS_DG': 0, 'DS_DL': 0}, 'transcript_id': 'XM_047442434.1', 'biotype': 'protein_coding', 'cds_end': 52, 'sift_prediction': 'tolerated', 'polyphen_score': 0.079, 'gene_symbol_source': 'EntrezGene', 'variant_allele': 'A', 'codons': 'Gtt/Att', 'consequence_terms': ['missense_variant']}], 'start': 48683905, 'id': 'NC_000023.11:g.48683905G>A', 'end': 48683905, 'allele_string': 'G/A', 'most_severe_consequence': 'missense_variant', 'colocated_variants': [{'allele_string': 'G/A', 'phenotype_or_disease': 1, 'seq_region_name': 'X', 'var_synonyms': {'ClinVar': ['RCV001996908', 'VCV001447769']}, 'start': 48683905, 'strand': 1, 'end': 48683905, 'clin_sig_allele': 'A:uncertain_significance', 'clin_sig': ['uncertain_significance'], 'id': 'rs1569493676'}], 'assembly_name': 'GRCh38', 'strand': 1}]"
+2025-03-20 20:08:57,112 [INFO] Variant Description: ENST00000335295.4:c.364G>T
+2025-03-20 20:08:57,113 [INFO] Genome Build: GRCh38
+2025-03-20 20:08:57,503 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 20:08:58,883 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator_ensembl/GRCh38/ENST00000335295.4:c.364G%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 2463
+2025-03-20 20:08:58,885 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225678C>A
+2025-03-20 20:08:58,922 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 20:09:00,370 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000011.10:g.5225678C%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 7246
+2025-03-20 20:09:00,374 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'most_severe_consequence': 'stop_gained', 'strand': 1, 'assembly_name': 'GRCh38', 'id': 'NC_000011.10:g.5225678C>A', 'end': 5225678, 'transcript_consequences': [{'given_ref': 'C', 'spliceai': {'DS_AG': 0, 'DS_DG': 0, 'DS_DL': 0, 'DP_DL': -20, 'DS_AL': 0.1, 'DP_DG': 31, 'SYMBOL': 'HBB', 'DP_AL': 48, 'DP_AG': -16}, 'gene_symbol': 'HBB', 'strand': -1, 'gene_symbol_source': 'HGNC', 'codons': 'Gaa/Taa', 'hgnc_id': 'HGNC:4827', 'protein_start': 122, 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': 'ENSG00000244734', 'cdna_start': 414, 'protein_end': 122, 'cds_end': 364, 'cdna_end': 414, 'consequence_terms': ['stop_gained'], 'used_ref': 'C', 'amino_acids': 'E/*', 'cds_start': 364, 'transcript_id': 'ENST00000335295', 'source': 'Ensembl', 'variant_allele': 'A'}, {'gene_id': 'ENSG00000244734', 'impact': 'MODIFIER', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000380315', 'source': 'Ensembl', 'variant_allele': 'A', 'used_ref': 'C', 'consequence_terms': ['downstream_gene_variant'], 'strand': -1, 'gene_symbol': 'HBB', 'flags': ['cds_end_NF'], 'given_ref': 'C', 'spliceai': {'DP_AG': -16, 'DP_AL': 48, 'SYMBOL': 'HBB', 'DP_DG': 31, 'DS_AL': 0.1, 'DP_DL': -20, 'DS_DL': 0, 'DS_DG': 0, 'DS_AG': 0}, 'hgnc_id': 'HGNC:4827', 'gene_symbol_source': 'HGNC', 'distance': 942}, {'strand': -1, 'gene_id': 'ENSG00000221031', 'given_ref': 'C', 'impact': 'MODIFIER', 'biotype': 'ribozyme', 'source': 'Ensembl', 'transcript_id': 'ENST00000408104', 'variant_allele': 'A', 'used_ref': 'C', 'consequence_terms': ['upstream_gene_variant'], 'distance': 1039}, {'gene_id': 'ENSG00000244734', 'cdna_start': 296, 'biotype': 'retained_intron', 'impact': 'MODIFIER', 'variant_allele': 'A', 'transcript_id': 'ENST00000475226', 'source': 'Ensembl', 'used_ref': 'C', 'cdna_end': 296, 'consequence_terms': ['non_coding_transcript_exon_variant'], 'gene_symbol': 'HBB', 'strand': -1, 'given_ref': 'C', 'spliceai': {'DP_AG': -16, 'DP_AL': 48, 'DP_DG': 31, 'SYMBOL': 'HBB', 'DS_AL': 0.1, 'DP_DL': -20, 'DS_DL': 0, 'DS_DG': 0, 'DS_AG': 0}, 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:4827'}, {'biotype': 'protein_coding', 'impact': 'MODIFIER', 'gene_id': 'ENSG00000244734', 'consequence_terms': ['downstream_gene_variant'], 'used_ref': 'C', 'variant_allele': 'A', 'transcript_id': 'ENST00000485743', 'source': 'Ensembl', 'spliceai': {'DS_AG': 0, 'DS_DG': 0, 'DS_DL': 0, 'DP_AL': 48, 'DP_AG': -16, 'DP_DL': -20, 'DS_AL': 0.1, 'DP_DG': 31, 'SYMBOL': 'HBB'}, 'given_ref': 'C', 'gene_symbol': 'HBB', 'strand': -1, 'distance': 585, 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:4827'}, {'given_ref': 'C', 'spliceai': {'DP_DL': -20, 'DS_AL': 0.1, 'DP_DG': 31, 'SYMBOL': 'HBB', 'DP_AL': 48, 'DP_AG': -16, 'DS_AG': 0, 'DS_DG': 0, 'DS_DL': 0}, 'strand': -1, 'gene_symbol': 'HBB', 'hgnc_id': 'HGNC:4827', 'gene_symbol_source': 'HGNC', 'impact': 'MODIFIER', 'biotype': 'nonsense_mediated_decay', 'cdna_start': 398, 'gene_id': 'ENSG00000244734', 'consequence_terms': ['3_prime_UTR_variant', 'NMD_transcript_variant'], 'cdna_end': 398, 'used_ref': 'C', 'variant_allele': 'A', 'transcript_id': 'ENST00000633227', 'source': 'Ensembl'}, {'distance': 217, 'consequence_terms': ['upstream_gene_variant'], 'used_ref': 'C', 'transcript_id': 'ENST00000644706', 'variant_allele': 'A', 'source': 'Ensembl', 'biotype': 'TEC', 'impact': 'MODIFIER', 'given_ref': 'C', 'gene_id': 'ENSG00000285498', 'strand': -1}, {'given_ref': 'C', 'spliceai': {'DS_DG': 0, 'DS_AG': 0, 'DS_DL': 0, 'DP_AG': -16, 'DP_AL': 48, 'DP_DL': -20, 'SYMBOL': 'HBB', 'DP_DG': 31, 'DS_AL': 0.1}, 'gene_symbol': 'HBB', 'strand': -1, 'codons': 'Gaa/Taa', 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:4827', 'protein_start': 122, 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': 'ENSG00000244734', 'cds_end': 364, 'cdna_start': 540, 'protein_end': 122, 'cdna_end': 540, 'consequence_terms': ['stop_gained'], 'used_ref': 'C', 'amino_acids': 'E/*', 'cds_start': 364, 'variant_allele': 'A', 'transcript_id': 'ENST00000647020', 'source': 'Ensembl'}, {'given_ref': 'C', 'impact': 'MODIFIER', 'biotype': 'lncRNA', 'strand': 1, 'cdna_start': 215, 'gene_id': 'ENSG00000298932', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'cdna_end': 215, 'used_ref': 'C', 'variant_allele': 'A', 'transcript_id': 'ENST00000759072', 'source': 'Ensembl'}, {'gene_symbol': 'HBB', 'strand': -1, 'given_ref': 'C', 'spliceai': {'DS_DL': 0, 'DS_AG': 0, 'DS_DG': 0, 'DS_AL': 0.1, 'DP_DG': 31, 'SYMBOL': 'HBB', 'DP_DL': -20, 'DP_AL': 48, 'DP_AG': -16}, 'gene_symbol_source': 'EntrezGene', 'codons': 'Gaa/Taa', 'hgnc_id': 'HGNC:4827', 'protein_start': 122, 'gene_id': '3043', 'protein_end': 122, 'cdna_start': 414, 'cds_end': 364, 'biotype': 'protein_coding', 'impact': 'HIGH', 'used_ref': 'C', 'cds_start': 364, 'amino_acids': 'E/*', 'cdna_end': 414, 'consequence_terms': ['stop_gained'], 'transcript_id': 'NM_000518.5', 'variant_allele': 'A', 'source': 'RefSeq'}], 'input': 'NC_000011.10:g.5225678C>A', 'allele_string': 'C/A', 'colocated_variants': [{'end': 5225678, 'seq_region_name': '11', 'start': 5225678, 'strand': 1, 'somatic': 1, 'id': 'CM860012', 'phenotype_or_disease': 1, 'allele_string': 'HGMD_MUTATION'}, {'strand': 1, 'somatic': 1, 'end': 5225678, 'start': 5225678, 'seq_region_name': '11', 'id': 'CM900124', 'phenotype_or_disease': 1, 'allele_string': 'HGMD_MUTATION'}, {'somatic': 1, 'strand': 1, 'start': 5225678, 'seq_region_name': '11', 'end': 5225678, 'phenotype_or_disease': 1, 'allele_string': 'HGMD_MUTATION', 'id': 'CM930381'}, {'id': 'COSV58941641', 'allele_string': 'COSMIC_MUTATION', 'phenotype_or_disease': 1, 'end': 5225678, 'var_synonyms': {'COSMIC': ['COSM5962267']}, 'seq_region_name': '11', 'start': 5225678, 'strand': 1, 'somatic': 1}, {'clin_sig_allele': 'G:other;G:pathogenic/likely_pathogenic;A:pathogenic;T:pathogenic;G:likely_pathogenic;G:pathogenic;T:pathogenic/likely_pathogenic;T:other', 'id': 'rs33946267', 'phenotype_or_disease': 1, 'allele_string': 'C/A/G/T', 'var_synonyms': {'OMIM': [141900.0314, 141900.0202, 141900.0065], 'HbVar': [951, 509, 510], 'ClinVar': ['RCV000029994', 'RCV000029993', 'RCV000016863', 'VCV000446746', 'RCV000016858', 'VCV000446745', 'RCV000016758', 'VCV000446740', 'RCV000016658', 'VCV000015404', 'RCV000016617', 'VCV000446739', 'RCV000016577', 'VCV000446736', 'RCV000508438', 'RCV000507274', 'RCV000587075', 'RCV000016525', 'RCV000016524', 'VCV000015292', 'RCV000016317', 'VCV000015152', 'RCV000202511', 'RCV000202465', 'RCV002247348', 'RCV002476974', 'RCV000778329', 'RCV000723826', 'RCV000984185', 'RCV001004560', 'RCV001107583', 'RCV001103965', 'RCV001175348'], 'UniProt': ['VAR_003048']}, 'end': 5225678, 'start': 5225678, 'pubmed': [25741868, 25087612, 22975760, 24123366, 2930724, 9834244, 10203101, 27351925, 3014870, 20437613, 20704537, 11570725, 2207008, 11939508, 9101288, 5481775, 12709369, 1517108, 14973, 640855, 750553, 893136, 1112610, 1732017, 1740317, 1787096, 1971109, 2079437, 2111975, 2307460, 2563949, 2887538, 3417300, 3557993, 3840039, 4078867, 4129558, 4361439, 4991321, 5050915, 5609824, 5619995, 5915974, 6246994, 6322284, 6716421, 7338475, 10205993, 11179419, 12403491, 13590135, 13872094, 14160125, 18254282, 19460936, 19958184, 20233970, 20788973, 25666204, 35064169, 35221311, 4351905, 3557998, 25373335, 22028795, 32888493, 28379995, 32888494, 10367791, 10583251, 21194265, 8978308, 8161774, 9163586, 16540414, 3859465, 9140717, 24814631, 2895770, 16370495, 20954261, 5672850, 1244906, 20110664, 24265529, 7908281, 1177278, 25818823, 31553106, 26877226, 24880717, 25849334, 30626242, 9875660, 24245819, 24616059, 26956563, 20301551, 8095930, 24080465, 31973650, 33867742], 'seq_region_name': '11', 'clin_sig': ['likely_pathogenic', 'pathogenic', 'other'], 'strand': 1, 'frequencies': {'A': {'gnomade_asj': 0, 'gnomade': 1.368e-06, 'gnomade_nfe': 1.799e-06, 'gnomade_mid': 0, 'gnomade_remaining': 0, 'gnomade_sas': 0, 'gnomade_amr': 0, 'gnomade_eas': 0, 'gnomade_fin': 0, 'gnomade_afr': 0}}}], 'start': 5225678, 'seq_region_name': '11'}]"
+2025-03-20 20:09:17,899 [INFO] Variant Description: ENST00000335295.4:c.364G>T
+2025-03-20 20:09:17,901 [INFO] Genome Build: GRCh37
+2025-03-20 20:09:17,915 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 20:10:18,700 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator_ensembl/GRCh37/ENST00000335295.4:c.364G%3ET/all?content-type=application%2Fjson HTTP/1.1" 500 58
+2025-03-20 20:10:18,707 [ERROR] Error fetching genomic HGVS: 'NoneType' object is not subscriptable
+2025-03-20 20:10:51,277 [INFO] Variant Description: ENST00000335295.4:c.364G>C
+2025-03-20 20:10:51,278 [INFO] Genome Build: GRCh38
+2025-03-20 20:10:51,300 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 20:10:51,992 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator_ensembl/GRCh38/ENST00000335295.4:c.364G%3EC/all?content-type=application%2Fjson HTTP/1.1" 200 2463
+2025-03-20 20:10:51,996 [DEBUG] Querying VEP with genomic HGVS: NC_000011.10:g.5225678C>G
+2025-03-20 20:10:52,002 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 20:10:55,600 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000011.10:g.5225678C%3EG?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 7782
+2025-03-20 20:10:55,610 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'input': 'NC_000011.10:g.5225678C>G', 'assembly_name': 'GRCh38', 'strand': 1, 'seq_region_name': '11', 'allele_string': 'C/G', 'start': 5225678, 'end': 5225678, 'transcript_consequences': [{'cds_end': 364, 'amino_acids': 'E/Q', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000335295', 'consequence_terms': ['missense_variant'], 'hgnc_id': 'HGNC:4827', 'codons': 'Gaa/Caa', 'variant_allele': 'G', 'cdna_end': 414, 'given_ref': 'C', 'source': 'Ensembl', 'cdna_start': 414, 'sift_prediction': 'deleterious_low_confidence', 'impact': 'MODERATE', 'spliceai': {'SYMBOL': 'HBB', 'DP_AL': 48, 'DS_AL': 0.02, 'DS_AG': 0, 'DP_AG': -16, 'DS_DG': 0, 'DP_DL': -20, 'DS_DL': 0, 'DP_DG': 31}, 'protein_end': 122, 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'protein_start': 122, 'sift_score': 0.03, 'gene_symbol': 'HBB', 'cds_start': 364, 'strand': -1, 'gene_id': 'ENSG00000244734'}, {'transcript_id': 'ENST00000380315', 'consequence_terms': ['downstream_gene_variant'], 'hgnc_id': 'HGNC:4827', 'biotype': 'protein_coding', 'variant_allele': 'G', 'distance': 942, 'source': 'Ensembl', 'given_ref': 'C', 'impact': 'MODIFIER', 'spliceai': {'DP_DL': -20, 'DP_DG': 31, 'DS_DL': 0, 'DP_AG': -16, 'DS_DG': 0, 'DS_AG': 0, 'DS_AL': 0.02, 'DP_AL': 48, 'SYMBOL': 'HBB'}, 'flags': ['cds_end_NF'], 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'gene_id': 'ENSG00000244734', 'strand': -1, 'gene_symbol': 'HBB'}, {'biotype': 'ribozyme', 'impact': 'MODIFIER', 'transcript_id': 'ENST00000408104', 'consequence_terms': ['upstream_gene_variant'], 'used_ref': 'C', 'distance': 1039, 'variant_allele': 'G', 'gene_id': 'ENSG00000221031', 'source': 'Ensembl', 'given_ref': 'C', 'strand': -1}, {'impact': 'MODIFIER', 'spliceai': {'DS_AG': 0, 'DP_AL': 48, 'DS_AL': 0.02, 'SYMBOL': 'HBB', 'DP_DL': -20, 'DP_DG': 31, 'DS_DL': 0, 'DP_AG': -16, 'DS_DG': 0}, 'cdna_start': 296, 'gene_id': 'ENSG00000244734', 'strand': -1, 'gene_symbol': 'HBB', 'used_ref': 'C', 'gene_symbol_source': 'HGNC', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'transcript_id': 'ENST00000475226', 'hgnc_id': 'HGNC:4827', 'biotype': 'retained_intron', 'given_ref': 'C', 'source': 'Ensembl', 'cdna_end': 296, 'variant_allele': 'G'}, {'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'strand': -1, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB', 'impact': 'MODIFIER', 'spliceai': {'DS_DL': 0, 'DP_DG': 31, 'DP_DL': -20, 'DS_DG': 0, 'DP_AG': -16, 'DS_AG': 0, 'DS_AL': 0.02, 'DP_AL': 48, 'SYMBOL': 'HBB'}, 'distance': 585, 'variant_allele': 'G', 'given_ref': 'C', 'source': 'Ensembl', 'consequence_terms': ['downstream_gene_variant'], 'hgnc_id': 'HGNC:4827', 'transcript_id': 'ENST00000485743', 'biotype': 'protein_coding'}, {'transcript_id': 'ENST00000633227', 'consequence_terms': ['3_prime_UTR_variant', 'NMD_transcript_variant'], 'hgnc_id': 'HGNC:4827', 'biotype': 'nonsense_mediated_decay', 'variant_allele': 'G', 'given_ref': 'C', 'source': 'Ensembl', 'cdna_end': 398, 'cdna_start': 398, 'spliceai': {'DP_AG': -16, 'DS_DG': 0, 'DP_DL': -20, 'DP_DG': 31, 'DS_DL': 0, 'DP_AL': 48, 'SYMBOL': 'HBB', 'DS_AL': 0.02, 'DS_AG': 0}, 'impact': 'MODIFIER', 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'strand': -1, 'gene_id': 'ENSG00000244734', 'gene_symbol': 'HBB'}, {'impact': 'MODIFIER', 'biotype': 'TEC', 'transcript_id': 'ENST00000644706', 'consequence_terms': ['upstream_gene_variant'], 'used_ref': 'C', 'variant_allele': 'G', 'distance': 217, 'given_ref': 'C', 'strand': -1, 'source': 'Ensembl', 'gene_id': 'ENSG00000285498'}, {'given_ref': 'C', 'source': 'Ensembl', 'cdna_end': 540, 'variant_allele': 'G', 'codons': 'Gaa/Caa', 'transcript_id': 'ENST00000647020', 'consequence_terms': ['missense_variant'], 'hgnc_id': 'HGNC:4827', 'biotype': 'protein_coding', 'amino_acids': 'E/Q', 'cds_end': 364, 'gene_id': 'ENSG00000244734', 'strand': -1, 'cds_start': 364, 'gene_symbol': 'HBB', 'sift_score': 0.03, 'protein_start': 122, 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'protein_end': 122, 'impact': 'MODERATE', 'spliceai': {'DP_DL': -20, 'DP_DG': 31, 'DS_DL': 0, 'DP_AG': -16, 'DS_DG': 0, 'DS_AG': 0, 'SYMBOL': 'HBB', 'DP_AL': 48, 'DS_AL': 0.02}, 'sift_prediction': 'deleterious_low_confidence', 'cdna_start': 540}, {'biotype': 'lncRNA', 'impact': 'MODIFIER', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'transcript_id': 'ENST00000759072', 'cdna_start': 215, 'cdna_end': 215, 'gene_id': 'ENSG00000298932', 'strand': 1, 'given_ref': 'C', 'source': 'Ensembl', 'used_ref': 'C', 'variant_allele': 'G'}, {'gene_symbol_source': 'EntrezGene', 'used_ref': 'C', 'protein_start': 122, 'sift_score': 0.03, 'gene_symbol': 'HBB', 'cds_start': 364, 'strand': -1, 'gene_id': '3043', 'cdna_start': 414, 'sift_prediction': 'deleterious_low_confidence', 'impact': 'MODERATE', 'spliceai': {'DP_AL': 48, 'SYMBOL': 'HBB', 'DS_AL': 0.02, 'DS_AG': 0, 'DP_AG': -16, 'DS_DG': 0, 'DP_DL': -20, 'DP_DG': 31, 'DS_DL': 0}, 'protein_end': 122, 'variant_allele': 'G', 'cdna_end': 414, 'source': 'RefSeq', 'given_ref': 'C', 'cds_end': 364, 'amino_acids': 'E/Q', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:4827', 'consequence_terms': ['missense_variant'], 'transcript_id': 'NM_000518.5', 'codons': 'Gaa/Caa'}], 'id': 'NC_000011.10:g.5225678C>G', 'colocated_variants': [{'somatic': 1, 'id': 'CM860012', 'seq_region_name': '11', 'end': 5225678, 'allele_string': 'HGMD_MUTATION', 'start': 5225678, 'strand': 1, 'phenotype_or_disease': 1}, {'seq_region_name': '11', 'id': 'CM900124', 'somatic': 1, 'phenotype_or_disease': 1, 'strand': 1, 'allele_string': 'HGMD_MUTATION', 'start': 5225678, 'end': 5225678}, {'phenotype_or_disease': 1, 'strand': 1, 'start': 5225678, 'allele_string': 'HGMD_MUTATION', 'end': 5225678, 'seq_region_name': '11', 'somatic': 1, 'id': 'CM930381'}, {'phenotype_or_disease': 1, 'start': 5225678, 'allele_string': 'COSMIC_MUTATION', 'strand': 1, 'end': 5225678, 'seq_region_name': '11', 'var_synonyms': {'COSMIC': ['COSM5962267']}, 'id': 'COSV58941641', 'somatic': 1}, {'phenotype_or_disease': 1, 'clin_sig_allele': 'G:other;G:pathogenic/likely_pathogenic;A:pathogenic;T:pathogenic;G:likely_pathogenic;G:pathogenic;T:pathogenic/likely_pathogenic;T:other', 'pubmed': [25741868, 25087612, 22975760, 24123366, 2930724, 9834244, 10203101, 27351925, 3014870, 20437613, 20704537, 11570725, 2207008, 11939508, 9101288, 5481775, 12709369, 1517108, 14973, 640855, 750553, 893136, 1112610, 1732017, 1740317, 1787096, 1971109, 2079437, 2111975, 2307460, 2563949, 2887538, 3417300, 3557993, 3840039, 4078867, 4129558, 4361439, 4991321, 5050915, 5609824, 5619995, 5915974, 6246994, 6322284, 6716421, 7338475, 10205993, 11179419, 12403491, 13590135, 13872094, 14160125, 18254282, 19460936, 19958184, 20233970, 20788973, 25666204, 35064169, 35221311, 4351905, 3557998, 25373335, 22028795, 32888493, 28379995, 32888494, 10367791, 10583251, 21194265, 8978308, 8161774, 9163586, 16540414, 3859465, 9140717, 24814631, 2895770, 16370495, 20954261, 5672850, 1244906, 20110664, 24265529, 7908281, 1177278, 25818823, 31553106, 26877226, 24880717, 25849334, 30626242, 9875660, 24245819, 24616059, 26956563, 20301551, 8095930, 24080465, 31973650, 33867742], 'end': 5225678, 'strand': 1, 'start': 5225678, 'allele_string': 'C/A/G/T', 'var_synonyms': {'OMIM': [141900.0314, 141900.0202, 141900.0065], 'ClinVar': ['RCV000029994', 'RCV000029993', 'RCV000016863', 'VCV000446746', 'RCV000016858', 'VCV000446745', 'RCV000016758', 'VCV000446740', 'RCV000016658', 'VCV000015404', 'RCV000016617', 'VCV000446739', 'RCV000016577', 'VCV000446736', 'RCV000508438', 'RCV000507274', 'RCV000587075', 'RCV000016525', 'RCV000016524', 'VCV000015292', 'RCV000016317', 'VCV000015152', 'RCV000202511', 'RCV000202465', 'RCV002247348', 'RCV002476974', 'RCV000778329', 'RCV000723826', 'RCV000984185', 'RCV001004560', 'RCV001107583', 'RCV001103965', 'RCV001175348'], 'HbVar': [951, 509, 510], 'UniProt': ['VAR_003048']}, 'seq_region_name': '11', 'id': 'rs33946267', 'clin_sig': ['likely_pathogenic', 'pathogenic', 'other'], 'frequencies': {'G': {'gnomade_afr': 5.974e-05, 'gnomade_asj': 0, 'gnomade_mid': 0.001907, 'af': 0.0006, 'gnomadg_amr': 0, 'gnomadg_sas': 0.004353, 'gnomadg_afr': 7.22e-05, 'gnomadg_fin': 0, 'gnomadg': 0.0002233, 'gnomadg_nfe': 0.000147, 'gnomade': 0.0004672, 'eas': 0, 'gnomadg_asj': 0, 'gnomade_sas': 0.005066, 'gnomade_remaining': 0.0003643, 'sas': 0.0031, 'gnomade_amr': 0.0001118, 'amr': 0, 'gnomadg_ami': 0, 'eur': 0, 'afr': 0, 'gnomadg_remaining': 0, 'gnomade_fin': 0, 'gnomadg_eas': 0, 'gnomade_eas': 0, 'gnomade_nfe': 0.0001853, 'gnomadg_mid': 0}}}], 'most_severe_consequence': 'missense_variant'}]"
+2025-03-20 20:51:49,222 [INFO] Variant Description: NM_000059.4(BRCA2):c.3G>A (p.Met1Ile)
+2025-03-20 20:51:49,224 [INFO] Genome Build: GRCh38
+2025-03-20 20:51:49,244 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 20:51:49,871 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000059.4(BRCA2):c.3G%3EA%20(p.Met1Ile)/all?content-type=application%2Fjson HTTP/1.1" 200 1163
+2025-03-20 20:51:49,873 [ERROR] Error extracting genomic HGVS: 'NM_000059.4(BRCA2):c.3G>A (p.Met1Ile)'
+2025-03-20 20:51:49,874 [ERROR] Error fetching genomic HGVS: Invalid response format for variant: NM_000059.4(BRCA2):c.3G>A (p.Met1Ile)
+2025-03-20 20:52:47,807 [INFO] Variant Description: NM_000059.4:c.3G>A
+2025-03-20 20:52:47,816 [INFO] Genome Build: GRCh38
+2025-03-20 20:52:47,841 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 20:52:48,609 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000059.4:c.3G%3EA/all?content-type=application%2Fjson HTTP/1.1" 200 3017
+2025-03-20 20:52:48,614 [DEBUG] Querying VEP with genomic HGVS: NC_000013.11:g.32316463G>A
+2025-03-20 20:52:48,763 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 20:52:50,691 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000013.11:g.32316463G%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 16691
+2025-03-20 20:52:50,696 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'seq_region_name': '13', 'start': 32316463, 'colocated_variants': [{'id': 'CM087365', 'allele_string': 'HGMD_MUTATION', 'phenotype_or_disease': 1, 'end': 32316463, 'start': 32316463, 'seq_region_name': '13', 'strand': 1, 'somatic': 1}, {'var_synonyms': {'COSMIC': ['COSM3981996']}, 'end': 32316463, 'start': 32316463, 'seq_region_name': '13', 'strand': 1, 'somatic': 1, 'id': 'COSV61526411', 'phenotype_or_disease': 1, 'allele_string': 'COSMIC_MUTATION'}, {'frequencies': {'A': {'gnomadg_fin': 0, 'gnomadg_remaining': 0, 'gnomadg_afr': 0, 'gnomadg': 6.572e-06, 'gnomadg_asj': 0, 'gnomadg_eas': 0, 'gnomadg_mid': 0, 'gnomadg_amr': 0, 'gnomadg_sas': 0, 'gnomadg_nfe': 1.47e-05, 'gnomadg_ami': 0}}, 'strand': 1, 'clin_sig': ['likely_pathogenic', 'pathogenic'], 'seq_region_name': '13', 'pubmed': [26467025, 20104584, 22678057, 21203900, 21769658, 26295337, 24156927, 14647210, 18182601, 24302565, 26913838, 16793542, 26287763, 19369211, 29478780, 31131967, 25330149, 28807866, 38737438, 37149759], 'start': 32316463, 'end': 32316463, 'var_synonyms': {'ClinVar': ['RCV000735545', 'RCV000496217', 'RCV000031452', 'VCV000037871', 'RCV000044328', 'VCV000051579', 'RCV000083102', 'RCV000162893', 'RCV003237421', 'RCV001762133', 'RCV001271035']}, 'allele_string': 'G/A/C/T', 'phenotype_or_disease': 1, 'id': 'rs80358650', 'clin_sig_allele': 'A:pathogenic;T:likely_pathogenic;T:pathogenic'}], 'allele_string': 'G/A', 'input': 'NC_000013.11:g.32316463G>A', 'transcript_consequences': [{'variant_allele': 'A', 'transcript_id': 'ENST00000345108', 'source': 'Ensembl', 'consequence_terms': ['upstream_gene_variant'], 'distance': 4509, 'used_ref': 'G', 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:37116', 'biotype': 'protein_coding', 'given_ref': 'G', 'impact': 'MODIFIER', 'gene_id': 'ENSG00000189167', 'gene_symbol': 'ZAR1L', 'strand': -1}, {'variant_allele': 'A', 'transcript_id': 'ENST00000380152', 'source': 'Ensembl', 'used_ref': 'G', 'amino_acids': 'M/I', 'cds_start': 3, 'cdna_end': 202, 'consequence_terms': ['start_lost'], 'gene_id': 'ENSG00000139618', 'cdna_start': 202, 'protein_end': 1, 'cds_end': 3, 'biotype': 'protein_coding', 'impact': 'HIGH', 'polyphen_prediction': 'benign', 'protein_start': 1, 'sift_score': 0, 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA', 'hgnc_id': 'HGNC:1101', 'polyphen_score': 0.149, 'gene_symbol': 'BRCA2', 'strand': 1, 'sift_prediction': 'deleterious', 'given_ref': 'G', 'spliceai': {'DP_AL': -41, 'DP_AG': -9, 'DP_DL': -44, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0}}, {'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'cdna_end': 202, 'amino_acids': 'M/I', 'cds_start': 3, 'used_ref': 'G', 'source': 'Ensembl', 'transcript_id': 'ENST00000470094', 'variant_allele': 'A', 'polyphen_prediction': 'possibly_damaging', 'impact': 'HIGH', 'biotype': 'nonsense_mediated_decay', 'protein_end': 1, 'cdna_start': 202, 'cds_end': 3, 'gene_id': 'ENSG00000139618', 'polyphen_score': 0.742, 'hgnc_id': 'HGNC:1101', 'codons': 'atG/atA', 'gene_symbol_source': 'HGNC', 'protein_start': 1, 'sift_score': 0, 'spliceai': {'DP_DL': -44, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_AL': -41, 'DP_AG': -9, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0}, 'sift_prediction': 'deleterious', 'given_ref': 'G', 'strand': 1, 'gene_symbol': 'BRCA2'}, {'transcript_id': 'ENST00000528762', 'variant_allele': 'A', 'source': 'Ensembl', 'cdna_end': 202, 'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'used_ref': 'G', 'cds_start': 3, 'amino_acids': 'M/I', 'biotype': 'nonsense_mediated_decay', 'impact': 'HIGH', 'gene_id': 'ENSG00000139618', 'cdna_start': 202, 'protein_end': 1, 'cds_end': 3, 'polyphen_prediction': 'probably_damaging', 'protein_start': 1, 'sift_score': 0, 'polyphen_score': 0.951, 'codons': 'atG/atA', 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:1101', 'sift_prediction': 'deleterious', 'spliceai': {'DP_AL': -41, 'DP_AG': -9, 'DP_DL': -44, 'DS_AL': 0, 'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0}, 'given_ref': 'G', 'gene_symbol': 'BRCA2', 'strand': 1}, {'cdna_start': 205, 'gene_id': 'ENSG00000139618', 'impact': 'MODIFIER', 'biotype': 'protein_coding', 'transcript_id': 'ENST00000530893', 'variant_allele': 'A', 'source': 'Ensembl', 'used_ref': 'G', 'consequence_terms': ['5_prime_UTR_variant'], 'cdna_end': 205, 'strand': 1, 'gene_symbol': 'BRCA2', 'spliceai': {'DS_DL': 0, 'DS_AG': 0, 'DS_DG': 0.01, 'DP_AL': -41, 'DP_AG': -9, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_DL': -44}, 'given_ref': 'G', 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'HGNC'}, {'gene_id': 'ENSG00000189167', 'gene_symbol': 'ZAR1L', 'strand': -1, 'biotype': 'protein_coding', 'impact': 'MODIFIER', 'given_ref': 'G', 'gene_symbol_source': 'HGNC', 'used_ref': 'G', 'hgnc_id': 'HGNC:37116', 'consequence_terms': ['upstream_gene_variant'], 'distance': 1100, 'transcript_id': 'ENST00000533490', 'variant_allele': 'A', 'source': 'Ensembl'}, {'polyphen_prediction': 'benign', 'biotype': 'protein_coding', 'impact': 'HIGH', 'gene_id': 'ENSG00000139618', 'cdna_start': 102, 'protein_end': 1, 'cds_end': 3, 'cdna_end': 102, 'consequence_terms': ['start_lost'], 'used_ref': 'G', 'cds_start': 3, 'amino_acids': 'M/I', 'transcript_id': 'ENST00000544455', 'variant_allele': 'A', 'source': 'Ensembl', 'sift_prediction': 'deleterious', 'spliceai': {'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0, 'DP_AL': -41, 'DP_AG': -9, 'DP_DL': -44, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2'}, 'given_ref': 'G', 'gene_symbol': 'BRCA2', 'strand': 1, 'polyphen_score': 0.149, 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA', 'hgnc_id': 'HGNC:1101', 'sift_score': 0, 'protein_start': 1}, {'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'cdna_end': 3, 'cds_start': 3, 'amino_acids': 'M/I', 'used_ref': 'G', 'variant_allele': 'A', 'transcript_id': 'ENST00000614259', 'source': 'Ensembl', 'polyphen_prediction': 'possibly_damaging', 'impact': 'HIGH', 'biotype': 'nonsense_mediated_decay', 'cdna_start': 3, 'cds_end': 3, 'protein_end': 1, 'gene_id': 'ENSG00000139618', 'polyphen_score': 0.477, 'hgnc_id': 'HGNC:1101', 'codons': 'atG/atA', 'gene_symbol_source': 'HGNC', 'protein_start': 1, 'sift_score': 0, 'given_ref': 'G', 'sift_prediction': 'deleterious', 'spliceai': {'DS_DL': 0, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_DL': -44, 'DP_AL': -41, 'DP_AG': -9}, 'strand': 1, 'gene_symbol': 'BRCA2'}, {'sift_score': 0, 'protein_start': 1, 'polyphen_score': 0.951, 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA', 'hgnc_id': 'HGNC:1101', 'sift_prediction': 'deleterious', 'spliceai': {'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AL': 0, 'DP_DL': -44, 'DP_AG': -9, 'DP_AL': -41}, 'given_ref': 'G', 'gene_symbol': 'BRCA2', 'strand': 1, 'source': 'Ensembl', 'variant_allele': 'A', 'transcript_id': 'ENST00000665585', 'cdna_end': 202, 'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'used_ref': 'G', 'cds_start': 3, 'amino_acids': 'M/I', 'biotype': 'nonsense_mediated_decay', 'impact': 'HIGH', 'gene_id': 'ENSG00000139618', 'cdna_start': 202, 'protein_end': 1, 'cds_end': 3, 'polyphen_prediction': 'probably_damaging'}, {'protein_start': 1, 'sift_score': 0, 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA', 'polyphen_score': 0.742, 'strand': 1, 'gene_symbol': 'BRCA2', 'sift_prediction': 'deleterious', 'spliceai': {'DP_AG': -9, 'DP_AL': -41, 'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DS_AL': 0, 'DP_DL': -44, 'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0}, 'given_ref': 'G', 'transcript_id': 'ENST00000666593', 'variant_allele': 'A', 'source': 'Ensembl', 'amino_acids': 'M/I', 'cds_start': 3, 'used_ref': 'G', 'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'cdna_end': 202, 'protein_end': 1, 'cdna_start': 202, 'cds_end': 3, 'gene_id': 'ENSG00000139618', 'impact': 'HIGH', 'biotype': 'nonsense_mediated_decay', 'polyphen_prediction': 'possibly_damaging'}, {'sift_prediction': 'deleterious', 'given_ref': 'G', 'spliceai': {'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AL': 0, 'DP_DL': -44, 'DP_AG': -9, 'DP_AL': -41, 'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0}, 'strand': 1, 'gene_symbol': 'BRCA2', 'protein_start': 1, 'sift_score': 0, 'polyphen_score': 0.149, 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA', 'impact': 'HIGH', 'biotype': 'protein_coding', 'cds_end': 3, 'protein_end': 1, 'cdna_start': 128, 'gene_id': 'ENSG00000139618', 'polyphen_prediction': 'benign', 'transcript_id': 'ENST00000680887', 'variant_allele': 'A', 'source': 'Ensembl', 'consequence_terms': ['start_lost'], 'cdna_end': 128, 'amino_acids': 'M/I', 'cds_start': 3, 'used_ref': 'G'}, {'cdna_start': 127, 'gene_id': 'ENSG00000139618', 'impact': 'MODIFIER', 'biotype': 'retained_intron', 'variant_allele': 'A', 'transcript_id': 'ENST00000700199', 'source': 'Ensembl', 'used_ref': 'G', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'cdna_end': 127, 'strand': 1, 'gene_symbol': 'BRCA2', 'spliceai': {'DP_DL': -44, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_AL': -41, 'DP_AG': -9, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0}, 'given_ref': 'G', 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'HGNC'}, {'given_ref': 'G', 'spliceai': {'DS_DG': 0.01, 'DS_AG': 0, 'DS_DL': 0, 'DP_AG': -9, 'DP_AL': -41, 'DP_DL': -44, 'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DS_AL': 0}, 'strand': 1, 'gene_symbol': 'BRCA2', 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'HGNC', 'impact': 'MODIFIER', 'biotype': 'retained_intron', 'cdna_start': 127, 'gene_id': 'ENSG00000139618', 'consequence_terms': ['non_coding_transcript_exon_variant'], 'cdna_end': 127, 'used_ref': 'G', 'transcript_id': 'ENST00000700200', 'variant_allele': 'A', 'source': 'Ensembl'}, {'spliceai': {'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DS_AL': 0, 'DP_DL': -44, 'DP_AG': -9, 'DP_AL': -41, 'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0}, 'sift_prediction': 'deleterious', 'given_ref': 'G', 'gene_symbol': 'BRCA2', 'strand': 1, 'sift_score': 0, 'protein_start': 1, 'polyphen_score': 0.986, 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA', 'hgnc_id': 'HGNC:1101', 'biotype': 'nonsense_mediated_decay', 'impact': 'HIGH', 'gene_id': 'ENSG00000139618', 'protein_end': 1, 'cdna_start': 125, 'cds_end': 3, 'polyphen_prediction': 'probably_damaging', 'variant_allele': 'A', 'transcript_id': 'ENST00000700201', 'source': 'Ensembl', 'cdna_end': 125, 'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'used_ref': 'G', 'amino_acids': 'M/I', 'cds_start': 3}, {'cds_start': 3, 'amino_acids': 'M/I', 'used_ref': 'G', 'consequence_terms': ['start_lost'], 'cdna_end': 202, 'variant_allele': 'A', 'transcript_id': 'ENST00000700202', 'source': 'Ensembl', 'polyphen_prediction': 'benign', 'protein_end': 1, 'cds_end': 3, 'cdna_start': 202, 'gene_id': 'ENSG00000139618', 'impact': 'HIGH', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:1101', 'codons': 'atG/atA', 'gene_symbol_source': 'HGNC', 'polyphen_score': 0.149, 'sift_score': 0, 'protein_start': 1, 'strand': 1, 'gene_symbol': 'BRCA2', 'sift_prediction': 'deleterious', 'spliceai': {'DP_DL': -44, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AL': 0, 'DP_AG': -9, 'DP_AL': -41, 'DS_DG': 0.01, 'DS_AG': 0, 'DS_DL': 0}, 'given_ref': 'G'}, {'cdna_start': 214, 'cds_end': 3, 'protein_end': 1, 'gene_id': 'ENSG00000139618', 'impact': 'HIGH', 'biotype': 'nonsense_mediated_decay', 'transcript_id': 'ENST00000713677', 'source': 'Ensembl', 'variant_allele': 'A', 'amino_acids': 'M/I', 'cds_start': 3, 'used_ref': 'G', 'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'cdna_end': 214, 'strand': 1, 'gene_symbol': 'BRCA2', 'sift_prediction': 'deleterious_low_confidence', 'spliceai': {'DS_AL': 0, 'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DP_DL': -44, 'DP_AL': -41, 'DP_AG': -9, 'DS_DL': 0, 'DS_AG': 0, 'DS_DG': 0.01}, 'given_ref': 'G', 'protein_start': 1, 'sift_score': 0, 'hgnc_id': 'HGNC:1101', 'codons': 'atG/atA', 'gene_symbol_source': 'HGNC'}, {'codons': 'atG/atA', 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:1101', 'protein_start': 1, 'sift_score': 0, 'gene_symbol': 'BRCA2', 'strand': 1, 'given_ref': 'G', 'sift_prediction': 'deleterious', 'spliceai': {'DS_DL': 0, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_DL': -44, 'DP_AL': -41, 'DP_AG': -9}, 'used_ref': 'G', 'amino_acids': 'M/I', 'cds_start': 3, 'cdna_end': 214, 'consequence_terms': ['start_lost'], 'variant_allele': 'A', 'transcript_id': 'ENST00000713678', 'source': 'Ensembl', 'gene_id': 'ENSG00000139618', 'cdna_start': 214, 'cds_end': 3, 'protein_end': 1, 'biotype': 'protein_coding', 'impact': 'HIGH'}, {'biotype': 'nonsense_mediated_decay', 'impact': 'HIGH', 'gene_id': 'ENSG00000139618', 'protein_end': 1, 'cdna_start': 202, 'cds_end': 3, 'variant_allele': 'A', 'transcript_id': 'ENST00000713679', 'source': 'Ensembl', 'cdna_end': 202, 'consequence_terms': ['start_lost', 'NMD_transcript_variant'], 'used_ref': 'G', 'cds_start': 3, 'amino_acids': 'M/I', 'sift_prediction': 'deleterious', 'spliceai': {'DS_DG': 0.01, 'DS_AG': 0, 'DS_DL': 0, 'DP_AG': -9, 'DP_AL': -41, 'DP_DL': -44, 'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DS_AL': 0}, 'given_ref': 'G', 'gene_symbol': 'BRCA2', 'strand': 1, 'sift_score': 0, 'protein_start': 1, 'codons': 'atG/atA', 'gene_symbol_source': 'HGNC', 'hgnc_id': 'HGNC:1101'}, {'impact': 'HIGH', 'biotype': 'protein_coding', 'cdna_start': 202, 'cds_end': 3, 'protein_end': 1, 'gene_id': 'ENSG00000139618', 'variant_allele': 'A', 'transcript_id': 'ENST00000713680', 'source': 'Ensembl', 'consequence_terms': ['start_lost'], 'cdna_end': 202, 'amino_acids': 'M/I', 'cds_start': 3, 'used_ref': 'G', 'sift_prediction': 'deleterious', 'given_ref': 'G', 'spliceai': {'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0, 'DP_AG': -9, 'DP_AL': -41, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AL': 0, 'DP_DL': -44}, 'strand': 1, 'gene_symbol': 'BRCA2', 'protein_start': 1, 'sift_score': 0, 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'HGNC', 'codons': 'atG/atA'}, {'strand': 1, 'gene_symbol': 'BRCA2', 'sift_prediction': 'deleterious', 'spliceai': {'DP_AG': -9, 'DP_AL': -41, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AL': 0, 'DP_DL': -44, 'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0}, 'given_ref': 'G', 'hgnc_id': 'HGNC:1101', 'codons': 'atG/atA', 'gene_symbol_source': 'EntrezGene', 'polyphen_score': 0.149, 'sift_score': 0, 'protein_start': 1, 'polyphen_prediction': 'benign', 'cdna_start': 202, 'cds_end': 3, 'protein_end': 1, 'gene_id': '675', 'impact': 'HIGH', 'biotype': 'protein_coding', 'amino_acids': 'M/I', 'cds_start': 3, 'used_ref': 'G', 'consequence_terms': ['start_lost'], 'cdna_end': 202, 'variant_allele': 'A', 'transcript_id': 'NM_000059.4', 'source': 'RefSeq'}, {'consequence_terms': ['upstream_gene_variant'], 'distance': 1100, 'used_ref': 'G', 'gene_symbol_source': 'EntrezGene', 'hgnc_id': 'HGNC:37116', 'variant_allele': 'A', 'transcript_id': 'NM_001136571.2', 'source': 'RefSeq', 'biotype': 'protein_coding', 'given_ref': 'G', 'impact': 'MODIFIER', 'gene_id': '646799', 'gene_symbol': 'ZAR1L', 'strand': -1}, {'gene_symbol': 'BRCA2', 'strand': 1, 'sift_prediction': 'deleterious', 'spliceai': {'DP_AG': -9, 'DP_AL': -41, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DS_AL': 0, 'DP_DL': -44, 'DS_DL': 0, 'DS_DG': 0.01, 'DS_AG': 0}, 'given_ref': 'G', 'codons': 'atG/atA', 'gene_symbol_source': 'EntrezGene', 'hgnc_id': 'HGNC:1101', 'polyphen_score': 0.812, 'protein_start': 1, 'sift_score': 0, 'polyphen_prediction': 'possibly_damaging', 'gene_id': '675', 'protein_end': 1, 'cdna_start': 202, 'cds_end': 3, 'biotype': 'protein_coding', 'impact': 'HIGH', 'used_ref': 'G', 'amino_acids': 'M/I', 'cds_start': 3, 'cdna_end': 202, 'consequence_terms': ['start_lost'], 'transcript_id': 'NM_001406719.1', 'variant_allele': 'A', 'source': 'RefSeq'}, {'polyphen_prediction': 'benign', 'gene_id': '675', 'cds_end': 3, 'protein_end': 1, 'cdna_start': 202, 'biotype': 'protein_coding', 'impact': 'HIGH', 'used_ref': 'G', 'cds_start': 3, 'amino_acids': 'M/I', 'cdna_end': 202, 'consequence_terms': ['start_lost'], 'transcript_id': 'NM_001406720.1', 'variant_allele': 'A', 'source': 'RefSeq', 'gene_symbol': 'BRCA2', 'strand': 1, 'sift_prediction': 'deleterious', 'spliceai': {'DS_DL': 0, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_DL': -44, 'DP_AL': -41, 'DP_AG': -9}, 'given_ref': 'G', 'codons': 'atG/atA', 'gene_symbol_source': 'EntrezGene', 'hgnc_id': 'HGNC:1101', 'polyphen_score': 0.149, 'protein_start': 1, 'sift_score': 0}, {'cds_start': 3, 'amino_acids': 'M/I', 'used_ref': 'G', 'consequence_terms': ['start_lost'], 'cdna_end': 202, 'transcript_id': 'NM_001406721.1', 'source': 'RefSeq', 'variant_allele': 'A', 'polyphen_prediction': 'unknown', 'cdna_start': 202, 'protein_end': 1, 'cds_end': 3, 'gene_id': '675', 'impact': 'HIGH', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:1101', 'codons': 'atG/atA', 'gene_symbol_source': 'EntrezGene', 'polyphen_score': 0, 'protein_start': 1, 'sift_score': 0.01, 'strand': 1, 'gene_symbol': 'BRCA2', 'spliceai': {'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0, 'DP_AL': -41, 'DP_AG': -9, 'DP_DL': -44, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2'}, 'sift_prediction': 'deleterious', 'given_ref': 'G'}, {'strand': 1, 'gene_id': '675', 'gene_symbol': 'BRCA2', 'impact': 'MODIFIER', 'spliceai': {'DP_AL': -41, 'DP_AG': -9, 'DP_DL': -44, 'DS_AL': 0, 'SYMBOL': 'BRCA2', 'DP_DG': -9, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0}, 'given_ref': 'G', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:1101', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'G', 'consequence_terms': ['intron_variant'], 'source': 'RefSeq', 'transcript_id': 'NM_001406722.1', 'variant_allele': 'A'}, {'cdna_end': 202, 'consequence_terms': ['non_coding_transcript_exon_variant'], 'used_ref': 'G', 'variant_allele': 'A', 'source': 'RefSeq', 'transcript_id': 'NR_176251.1', 'biotype': 'misc_RNA', 'impact': 'MODIFIER', 'gene_id': '675', 'cdna_start': 202, 'gene_symbol_source': 'EntrezGene', 'hgnc_id': 'HGNC:1101', 'spliceai': {'DP_DL': -44, 'DS_AL': 0, 'DP_DG': -9, 'SYMBOL': 'BRCA2', 'DP_AL': -41, 'DP_AG': -9, 'DS_AG': 0, 'DS_DG': 0.01, 'DS_DL': 0}, 'given_ref': 'G', 'gene_symbol': 'BRCA2', 'strand': 1}], 'regulatory_feature_consequences': [{'impact': 'MODIFIER', 'regulatory_feature_id': 'ENSR13_C57KN', 'variant_allele': 'A', 'biotype': 'enhancer', 'consequence_terms': ['regulatory_region_variant']}], 'id': 'NC_000013.11:g.32316463G>A', 'end': 32316463, 'strand': 1, 'assembly_name': 'GRCh38', 'most_severe_consequence': 'start_lost'}]"
+2025-03-20 21:20:39,627 [INFO] Variant Description: NC_000013.11:g.32316463G>A
+2025-03-20 21:20:39,628 [INFO] Genome Build: GRCh38
+2025-03-20 21:20:42,289 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 21:20:42,926 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NC_000013.11:g.32316463G%3EA/all?content-type=application%2Fjson HTTP/1.1" 404 339
+2025-03-20 21:20:42,934 [ERROR] Error fetching genomic HGVS: 'NoneType' object is not subscriptable
+2025-03-20 21:21:00,612 [INFO] Variant Description: NM_000088.3:c.589G>T
+2025-03-20 21:21:00,613 [INFO] Genome Build: GRCh38
+2025-03-20 21:21:00,629 [DEBUG] Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-20 21:21:01,381 [DEBUG] https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000088.3:c.589G%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3492
+2025-03-20 21:21:01,383 [DEBUG] Querying VEP with genomic HGVS: NC_000017.11:g.50198002C>A
+2025-03-20 21:21:01,419 [DEBUG] Starting new HTTPS connection (1): rest.ensembl.org:443
+2025-03-20 21:21:06,964 [DEBUG] https://rest.ensembl.org:443 "GET /vep/human/hgvs/NC_000017.11:g.50198002C%3EA?revel=true;SpliceAI=true;merged=true;content-type=application/json HTTP/1.1" 200 8128
+2025-03-20 21:21:06,968 [ERROR] Request to VEP API failed: No connection adapters were found for "[{'transcript_consequences': [{'gene_symbol': 'COL1A1', 'cds_start': 589, 'polyphen_score': 0, 'polyphen_prediction': 'unknown', 'strand': -1, 'gene_id': 'ENSG00000108821', 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'protein_start': 197, 'sift_score': 0, 'spliceai': {'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DP_DG': 48, 'DS_DL': 0, 'DP_AL': 0, 'DS_AL': 0.06, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02}, 'impact': 'MODERATE', 'protein_end': 197, 'cdna_start': 707, 'sift_prediction': 'deleterious', 'cdna_end': 707, 'given_ref': 'C', 'source': 'Ensembl', 'variant_allele': 'A', 'amino_acids': 'G/C', 'biotype': 'protein_coding', 'hgnc_id': 'HGNC:2197', 'transcript_id': 'ENST00000225964', 'consequence_terms': ['missense_variant', 'splice_region_variant'], 'codons': 'Ggt/Tgt', 'cds_end': 589}, {'impact': 'MODIFIER', 'spliceai': {'DS_AL': 0.06, 'DP_AL': 0, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02, 'DS_DG': 0, 'DP_AG': -10, 'DS_DL': 0, 'DP_DG': 48, 'DP_DL': -27}, 'used_ref': 'C', 'gene_symbol_source': 'HGNC', 'gene_symbol': 'COL1A1', 'strand': -1, 'gene_id': 'ENSG00000108821', 'biotype': 'retained_intron', 'consequence_terms': ['upstream_gene_variant'], 'transcript_id': 'ENST00000463440', 'hgnc_id': 'HGNC:2197', 'distance': 3650, 'variant_allele': 'A', 'source': 'Ensembl', 'given_ref': 'C'}, {'spliceai': {'DP_AL': 0, 'DS_AL': 0.06, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02, 'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DP_DG': 48, 'DS_DL': 0}, 'impact': 'MODIFIER', 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'gene_symbol': 'COL1A1', 'strand': -1, 'gene_id': 'ENSG00000108821', 'biotype': 'retained_intron', 'transcript_id': 'ENST00000471344', 'consequence_terms': ['upstream_gene_variant'], 'hgnc_id': 'HGNC:2197', 'distance': 2337, 'variant_allele': 'A', 'source': 'Ensembl', 'given_ref': 'C'}, {'impact': 'MODIFIER', 'spliceai': {'DS_AG': 0.02, 'DS_AL': 0.06, 'DP_AL': 0, 'SYMBOL': 'COL1A1', 'DP_DL': -27, 'DS_DL': 0, 'DP_DG': 48, 'DP_AG': -10, 'DS_DG': 0}, 'gene_symbol': 'COL1A1', 'strand': -1, 'gene_id': 'ENSG00000108821', 'used_ref': 'C', 'gene_symbol_source': 'HGNC', 'biotype': 'retained_intron', 'consequence_terms': ['downstream_gene_variant'], 'transcript_id': 'ENST00000474644', 'hgnc_id': 'HGNC:2197', 'source': 'Ensembl', 'given_ref': 'C', 'variant_allele': 'A', 'distance': 1276}, {'distance': 3944, 'variant_allele': 'A', 'given_ref': 'C', 'source': 'Ensembl', 'transcript_id': 'ENST00000476387', 'consequence_terms': ['upstream_gene_variant'], 'hgnc_id': 'HGNC:2197', 'biotype': 'retained_intron', 'used_ref': 'C', 'gene_symbol_source': 'HGNC', 'gene_id': 'ENSG00000108821', 'strand': -1, 'gene_symbol': 'COL1A1', 'spliceai': {'DP_AL': 0, 'DS_AL': 0.06, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02, 'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DP_DG': 48, 'DS_DL': 0}, 'impact': 'MODIFIER'}, {'source': 'Ensembl', 'given_ref': 'C', 'variant_allele': 'A', 'distance': 1407, 'consequence_terms': ['upstream_gene_variant'], 'transcript_id': 'ENST00000485870', 'hgnc_id': 'HGNC:2197', 'biotype': 'retained_intron', 'strand': -1, 'gene_id': 'ENSG00000108821', 'gene_symbol': 'COL1A1', 'used_ref': 'C', 'gene_symbol_source': 'HGNC', 'impact': 'MODIFIER', 'spliceai': {'DP_DG': 48, 'DS_DL': 0, 'DP_DL': -27, 'DS_DG': 0, 'DP_AG': -10, 'DS_AG': 0.02, 'DP_AL': 0, 'DS_AL': 0.06, 'SYMBOL': 'COL1A1'}}, {'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'gene_id': 'ENSG00000108821', 'strand': -1, 'gene_symbol': 'COL1A1', 'cdna_start': 316, 'spliceai': {'DS_DG': 0, 'DP_AG': -10, 'DP_DG': 48, 'DS_DL': 0, 'DP_DL': -27, 'DS_AL': 0.06, 'DP_AL': 0, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02}, 'impact': 'LOW', 'variant_allele': 'A', 'given_ref': 'C', 'source': 'Ensembl', 'cdna_end': 316, 'transcript_id': 'ENST00000495677', 'hgnc_id': 'HGNC:2197', 'consequence_terms': ['splice_region_variant', 'non_coding_transcript_exon_variant'], 'biotype': 'retained_intron'}, {'impact': 'MODIFIER', 'spliceai': {'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DS_DL': 0, 'DP_DG': 48, 'SYMBOL': 'COL1A1', 'DP_AL': 0, 'DS_AL': 0.06, 'DS_AG': 0.02}, 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'flags': ['cds_end_NF'], 'strand': -1, 'gene_id': 'ENSG00000108821', 'gene_symbol': 'COL1A1', 'consequence_terms': ['downstream_gene_variant'], 'hgnc_id': 'HGNC:2197', 'transcript_id': 'ENST00000507689', 'biotype': 'protein_coding', 'distance': 1287, 'variant_allele': 'A', 'given_ref': 'C', 'source': 'Ensembl'}, {'biotype': 'lncRNA', 'impact': 'MODIFIER', 'consequence_terms': ['upstream_gene_variant'], 'transcript_id': 'ENST00000509943', 'hgnc_id': 'HGNC:52795', 'gene_symbol': 'TILAM', 'gene_id': 'ENSG00000249406', 'given_ref': 'C', 'source': 'Ensembl', 'strand': 1, 'used_ref': 'C', 'gene_symbol_source': 'HGNC', 'distance': 1874, 'variant_allele': 'A'}, {'gene_id': 'ENSG00000249406', 'source': 'Ensembl', 'strand': 1, 'given_ref': 'C', 'gene_symbol': 'TILAM', 'distance': 3090, 'variant_allele': 'A', 'gene_symbol_source': 'HGNC', 'used_ref': 'C', 'transcript_id': 'ENST00000832079', 'consequence_terms': ['upstream_gene_variant'], 'hgnc_id': 'HGNC:52795', 'biotype': 'lncRNA', 'impact': 'MODIFIER'}, {'codons': 'Ggt/Tgt', 'hgnc_id': 'HGNC:2197', 'consequence_terms': ['missense_variant', 'splice_region_variant'], 'transcript_id': 'NM_000088.4', 'biotype': 'protein_coding', 'amino_acids': 'G/C', 'cds_end': 589, 'given_ref': 'C', 'source': 'RefSeq', 'cdna_end': 707, 'variant_allele': 'A', 'protein_end': 197, 'spliceai': {'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DP_DG': 48, 'DS_DL': 0, 'DS_AL': 0.06, 'DP_AL': 0, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02}, 'impact': 'MODERATE', 'sift_prediction': 'deleterious', 'cdna_start': 707, 'gene_id': '1277', 'polyphen_prediction': 'unknown', 'polyphen_score': 0, 'strand': -1, 'cds_start': 589, 'gene_symbol': 'COL1A1', 'sift_score': 0, 'protein_start': 197, 'gene_symbol_source': 'EntrezGene', 'used_ref': 'C'}, {'strand': -1, 'gene_id': '1277', 'gene_symbol': 'COL1A1', 'cds_start': 589, 'protein_start': 197, 'gene_symbol_source': 'EntrezGene', 'used_ref': 'C', 'protein_end': 197, 'spliceai': {'DS_AL': 0.06, 'DP_AL': 0, 'SYMBOL': 'COL1A1', 'DS_AG': 0.02, 'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DS_DL': 0, 'DP_DG': 48}, 'impact': 'MODERATE', 'cdna_start': 707, 'given_ref': 'C', 'source': 'RefSeq', 'cdna_end': 707, 'variant_allele': 'A', 'transcript_id': 'XM_005257058.5', 'consequence_terms': ['missense_variant', 'splice_region_variant'], 'hgnc_id': 'HGNC:2197', 'codons': 'Ggt/Tgt', 'amino_acids': 'G/C', 'biotype': 'protein_coding', 'cds_end': 589}, {'variant_allele': 'A', 'source': 'RefSeq', 'given_ref': 'C', 'cdna_end': 707, 'cds_end': 589, 'codons': 'Ggt/Tgt', 'consequence_terms': ['missense_variant', 'splice_region_variant'], 'hgnc_id': 'HGNC:2197', 'transcript_id': 'XM_005257059.5', 'biotype': 'protein_coding', 'amino_acids': 'G/C', 'protein_start': 197, 'gene_symbol_source': 'EntrezGene', 'used_ref': 'C', 'gene_id': '1277', 'strand': -1, 'cds_start': 589, 'gene_symbol': 'COL1A1', 'cdna_start': 707, 'protein_end': 197, 'impact': 'MODERATE', 'spliceai': {'DP_AL': 0, 'SYMBOL': 'COL1A1', 'DS_AL': 0.06, 'DS_AG': 0.02, 'DP_AG': -10, 'DS_DG': 0, 'DP_DL': -27, 'DP_DG': 48, 'DS_DL': 0}}, {'variant_allele': 'A', 'cdna_end': 707, 'given_ref': 'C', 'source': 'RefSeq', 'cds_end': 589, 'biotype': 'protein_coding', 'amino_acids': 'G/C', 'codons': 'Ggt/Tgt', 'hgnc_id': 'HGNC:2197', 'consequence_terms': ['missense_variant', 'splice_region_variant'], 'transcript_id': 'XM_011524341.2', 'gene_symbol_source': 'EntrezGene', 'used_ref': 'C', 'protein_start': 197, 'cds_start': 589, 'gene_symbol': 'COL1A1', 'gene_id': '1277', 'strand': -1, 'cdna_start': 707, 'impact': 'MODERATE', 'spliceai': {'DP_DL': -27, 'DP_DG': 48, 'DS_DL': 0, 'DP_AG': -10, 'DS_DG': 0, 'DS_AG': 0.02, 'DS_AL': 0.06, 'DP_AL': 0, 'SYMBOL': 'COL1A1'}, 'protein_end': 197}], 'id': 'NC_000017.11:g.50198002C>A', 'end': 50198002, 'most_severe_consequence': 'missense_variant', 'colocated_variants': [{'phenotype_or_disease': 1, 'allele_string': 'HGMD_MUTATION', 'start': 50198002, 'strand': 1, 'end': 50198002, 'seq_region_name': '17', 'id': 'CM062539', 'somatic': 1}, {'phenotype_or_disease': 1, 'strand': 1, 'allele_string': 'HGMD_MUTATION', 'start': 50198002, 'end': 50198002, 'seq_region_name': '17', 'id': 'CM070748', 'somatic': 1}, {'phenotype_or_disease': 1, 'allele_string': 'HGMD_MUTATION', 'start': 50198002, 'strand': 1, 'end': 50198002, 'seq_region_name': '17', 'somatic': 1, 'id': 'CM983820'}, {'pubmed': [15113403, 15157284, 25944380, 24273577], 'phenotype_or_disease': 1, 'clin_sig_allele': 'A:pathogenic', 'strand': 1, 'allele_string': 'C/A/T', 'start': 50198002, 'end': 50198002, 'seq_region_name': '17', 'var_synonyms': {'OIVD': ['COL1A1_00006', 'COL1A1_00005'], 'UniProt': ['VAR_001642'], 'ClinVar': ['RCV001269743', 'RCV000490693', 'VCV000425635']}, 'id': 'rs8179178', 'clin_sig': ['pathogenic']}], 'assembly_name': 'GRCh38', 'input': 'NC_000017.11:g.50198002C>A', 'seq_region_name': '17', 'strand': 1, 'allele_string': 'C/A', 'start': 50198002}]"

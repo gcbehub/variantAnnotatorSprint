@@ -1,6 +1,11 @@
 import logging
 from pathlib import Path
 from resources import variantValidator_rest, vep_rest
+import os
+
+log_dir = '/Users/ganeshkumarv/gcbehub/variantAnnotatorSprint/variantAnnotator/logs/'
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
 
 # Use logging rather than print statements to track workflows and record exceptions.py
 current_directory = str(Path(__file__).resolve().parent)

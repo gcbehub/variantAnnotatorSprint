@@ -1,0 +1,12 @@
+2025-03-17 20:29:39,101 - ERROR - No variant description provided.
+2025-03-17 20:30:42,326 - ERROR - No variant description provided.
+2025-03-17 20:33:06,912 - INFO - Starting variant validation process for NM_000518.5:c.382C>T on GRCh38
+2025-03-17 20:33:06,934 - DEBUG - Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-17 20:33:07,579 - DEBUG - https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3435
+2025-03-17 20:33:07,586 - DEBUG - Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-17 20:33:08,257 - DEBUG - https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator_ensembl/GRCh38/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 1163
+2025-03-17 20:36:23,911 - INFO - Starting variant validation process for NM_000518.5:c.382C>T on GRCh37
+2025-03-17 20:36:23,929 - DEBUG - Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-17 20:36:24,861 - DEBUG - https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator/GRCh37/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 3435
+2025-03-17 20:36:24,868 - DEBUG - Starting new HTTPS connection (1): rest.variantvalidator.org:443
+2025-03-17 20:36:25,530 - DEBUG - https://rest.variantvalidator.org:443 "GET /VariantValidator/variantvalidator_ensembl/GRCh37/NM_000518.5:c.382C%3ET/all?content-type=application%2Fjson HTTP/1.1" 200 1163
